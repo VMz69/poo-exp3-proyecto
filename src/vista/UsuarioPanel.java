@@ -82,7 +82,7 @@ public class UsuarioPanel extends JPanel {
 
         // === PANEL SUR: BUSCAR ===
         JPanel panelSur = new JPanel(new FlowLayout(FlowLayout.RIGHT));
-        btnBuscar = new JButton("Buscar Usuario");
+        btnBuscar = new JButton("Buscar Usuario/>>pass");
         btnBuscar.setBackground(new Color(0, 123, 255));
         btnBuscar.setForeground(Color.WHITE);
         panelSur.add(btnBuscar);
@@ -91,7 +91,7 @@ public class UsuarioPanel extends JPanel {
         // === ACCIONES ===
         btnGuardar.addActionListener(e -> guardarUsuario());
         btnLimpiar.addActionListener(e -> limpiarCampos());
-        btnBuscar.addActionListener(e -> buscarUsuario());
+        btnBuscar.addActionListener(e -> restablecerPass());
 
         cargarCombos();
         cargarUsuarios(); // Carga inicial
@@ -185,6 +185,34 @@ public class UsuarioPanel extends JPanel {
                     monto,
                     estado
             });
+        }
+    }
+
+    private void restablecerPass(){
+        int fila = tabla.getSelectedRow();
+        if (fila == -1) {
+            JOptionPane.showMessageDialog(this, "Seleccione un usuario", "Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+
+        int idUsuario = (int) modelo.getValueAt(fila, 0);
+        String nombreUsuarioSelec = (String) modelo.getValueAt(fila,1);
+        UsuarioDAO udao = new UsuarioDAO();
+        Usuario u = udao.obtenerPorId(idUsuario);
+
+        if (u != null) {
+            String nuevaContrasena = JOptionPane.showInputDialog(this, "Ingrese la nueva contraseña para " + nombreUsuarioSelec + ":");
+
+            if (nuevaContrasena != null && !nuevaContrasena.trim().isEmpty()) {
+                u.setContrasena(nuevaContrasena);
+
+                if (udao.actualizarContrasena(u)) {
+                    JOptionPane.showMessageDialog(this, "Contraseña actualizada correctamente.");
+                    //cargarUsuarios(); // RECARGA tabla de usuarios
+                } else {
+                    JOptionPane.showMessageDialog(this, "Error al actualizar la contraseña.", "Error", JOptionPane.ERROR_MESSAGE);
+                }
+            }
         }
     }
 

@@ -271,6 +271,23 @@ public class UsuarioDAO {
     }
 
     // ========================================
+    // 9. ACTUALIZAR CONTRASEÑA
+    // ========================================
+    public boolean actualizarContrasena(Usuario u) {
+        String sql = "UPDATE usuarios SET contrasena = ? WHERE id_usuario = ?";
+        try (Connection conn = Conexion.conectar();
+             PreparedStatement ps = conn.prepareStatement(sql)) {
+            ps.setString(1, u.getContrasena());
+            ps.setInt(2, u.getIdUsuario());
+            return ps.executeUpdate() > 0;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+
+    // ========================================
     // MÉTODO AUXILIAR: MAPEAR RESULTSET A USUARIO
     // ========================================
     private Usuario mapearUsuario(ResultSet rs) throws SQLException {
