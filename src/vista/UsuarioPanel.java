@@ -1,8 +1,8 @@
 package vista;
 
 import dao.UsuarioDAO;
-import model.Usuario;
 import model.TipoUsuario;
+import model.Usuario;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
