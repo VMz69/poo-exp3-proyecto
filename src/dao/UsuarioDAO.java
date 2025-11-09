@@ -160,7 +160,7 @@ public class UsuarioDAO {
                     "WHERE u.nombre_completo LIKE ? OR u.usuario LIKE ? OR u.correo LIKE ?";
             ps = conn.prepareStatement(sql);
 
-            String like = "%" + criterio + "%undles";
+            String like = "%" + criterio + "%";
             ps.setString(1, like);
             ps.setString(2, like);
             ps.setString(3, like);

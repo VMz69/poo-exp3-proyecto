@@ -18,7 +18,7 @@ import java.util.List;
 public class UsuarioPanel extends JPanel {
     private JTextField txtNombre, txtCorreo, txtUsuario, txtContrasena;
     private JComboBox<TipoUsuario> cmbTipo;
-    private JButton btnGuardar, btnLimpiar, btnBuscar;
+    private JButton btnGuardar, btnLimpiar, btnBuscar, btnCambioPass;
     private JTable tabla;
     private DefaultTableModel modelo;
 
@@ -82,16 +82,23 @@ public class UsuarioPanel extends JPanel {
 
         // === PANEL SUR: BUSCAR ===
         JPanel panelSur = new JPanel(new FlowLayout(FlowLayout.RIGHT));
-        btnBuscar = new JButton("Buscar Usuario/>>pass");
+        btnBuscar = new JButton("Buscar Usuario");
         btnBuscar.setBackground(new Color(0, 123, 255));
         btnBuscar.setForeground(Color.WHITE);
         panelSur.add(btnBuscar);
+
+        btnCambioPass = new JButton("Restablecer Contraseña");
+        btnCambioPass.setBackground(new Color(220, 53, 69));
+        btnCambioPass.setForeground(Color.WHITE);
+        panelSur.add(btnCambioPass);
+
         add(panelSur, BorderLayout.SOUTH);
 
         // === ACCIONES ===
         btnGuardar.addActionListener(e -> guardarUsuario());
         btnLimpiar.addActionListener(e -> limpiarCampos());
-        btnBuscar.addActionListener(e -> restablecerPass());
+        btnBuscar.addActionListener(e -> buscarUsuario());
+        btnCambioPass.addActionListener(e -> restablecerPass());
 
         cargarCombos();
         cargarUsuarios(); // Carga inicial
