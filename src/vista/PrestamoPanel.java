@@ -40,8 +40,8 @@ public class PrestamoPanel extends JPanel {
         txtIdUsuario = new JTextField(10);
         txtIdEjemplar = new JTextField(10);
 
-        btnBuscarUsuario = new JButton("Buscar Usuario");
-        btnBuscarEjemplar = new JButton("Buscar Ejemplar");
+        btnBuscarUsuario = new JButton("Confirmar Usuario");
+        btnBuscarEjemplar = new JButton("Confirmar Ejemplar");
         btnPrestar = new JButton("Realizar Préstamo");
         btnPrestar.setBackground(new Color(40, 167, 69));
         btnPrestar.setForeground(Color.WHITE);
@@ -55,7 +55,7 @@ public class PrestamoPanel extends JPanel {
         add(form, BorderLayout.WEST);
 
         // === TABLA ===
-        String[] columnas = {"ID", "Usuario", "Ejemplar", "Préstamo", "Vencimiento", "Estado", "Mora"};
+        String[] columnas = {"ID", "Usuario", "Ejemplar", "Préstamo", "Vencimiento", "Estado"};
         modelo = new DefaultTableModel(columnas, 0) {
             @Override public boolean isCellEditable(int row, int col) { return false; }
         };
@@ -218,7 +218,7 @@ public class PrestamoPanel extends JPanel {
         List<Prestamo> lista = new PrestamoDAO().obtenerActivos();
         modelo.setRowCount(0);
         for (Prestamo p : lista) {
-            double mora = p.getMoraCalculada();
+
             String estado = p.getFechaDevolucion() == null ? "Activo" : "Devuelto";
 
             modelo.addRow(new Object[]{
@@ -228,7 +228,6 @@ public class PrestamoPanel extends JPanel {
                     p.getFechaPrestamo(),
                     p.getFechaVencimiento(),
                     estado,
-                    mora > 0 ? "S/. " + String.format("%.2f", mora) : "-"
             });
         }
     }
