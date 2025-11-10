@@ -35,7 +35,7 @@ public class BusquedaEstadoPanel extends JPanel {
         add(filtros, BorderLayout.NORTH);
 
         modelo = new DefaultTableModel(
-                new String[]{"ID", "Título", "Autor", "Tipo", "Categoría", "Ubicación", "Total", "Disponible", "Estado"},
+                new String[]{"ID", "Título", "Autor / Artisa", "Tipo", "Categoría", "Ubicación", "Total", "Disponible", "Estado"},
                 0
         );
 
