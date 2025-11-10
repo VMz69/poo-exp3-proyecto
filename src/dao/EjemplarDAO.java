@@ -205,10 +205,10 @@ public class EjemplarDAO {
                 } else if (clazz == Ubicacion.class) {
                     Ubicacion u = new Ubicacion();
                     u.setIdUbicacion(rs.getInt(idCol));
-                    u.setEdificio(rs.getString("edificio"));
-                    u.setPiso(rs.getString("piso"));
-                    u.setSeccion(rs.getString("seccion"));
-                    u.setEstante(rs.getString("estante"));
+                    u.setEdificio("Edificio "+rs.getString("edificio"));
+                    u.setPiso("Piso "+rs.getString("piso"));
+                    u.setSeccion("Seccion "+rs.getString("seccion"));
+                    u.setEstante("Estante "+rs.getString("estante"));
                     lista.add((T) u);
                 }
             }
