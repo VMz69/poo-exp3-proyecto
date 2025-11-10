@@ -99,6 +99,10 @@ public class MainFrame extends JFrame {
 
         tabs.addTab("Ejemplares", new JScrollPane(new EjemplarPanel()));
         tabs.addTab("Préstamos", new JScrollPane(new PrestamoPanel()));
+        // Milton: agregar otra pestaña para BusquedaEstadoPanel
+        tabs.addTab("Búsqueda Estado", new JScrollPane(new BusquedaEstadoPanel()));
+        // Milton: aqui termina la pestaña extra
+
     }
 
     // === ACTUALIZAR EJEMPLARES ===
