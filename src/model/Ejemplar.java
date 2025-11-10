@@ -1,9 +1,11 @@
 package model;
 import java.time.LocalDate;
+
 /**
- * Clase Ejemplar - Representa un documento en la biblioteca
+ * Clase Base Ejemplar - Representa un documento en la biblioteca
+ * Clase abstracta para implementar herencia
  */
-public class Ejemplar {
+public abstract class Ejemplar {
     private int idEjemplar;
     private String titulo;
     private String autor;
@@ -15,7 +17,6 @@ public class Ejemplar {
     private Ubicacion ubicacion;
     private String numeroEdicion;
     private String idioma;
-    private int numPaginas;
     private String descripcion;
     private int cantidadTotal;
     private int cantidadDisponible;
@@ -25,6 +26,12 @@ public class Ejemplar {
     public Ejemplar() {
         this.activo = true;
     }
+
+    // Metodo abstracto para obtener información específica del tipo
+    public abstract String getInformacionEspecifica();
+
+    // Metodo abstracto para obtener el tipo de documento
+    public abstract String getTipoDocumentoString();
 
     // Getters y Setters
     public int getIdEjemplar() { return idEjemplar; }
@@ -59,9 +66,6 @@ public class Ejemplar {
 
     public String getIdioma() { return idioma; }
     public void setIdioma(String idioma) { this.idioma = idioma; }
-
-    public int getNumPaginas() { return numPaginas; }
-    public void setNumPaginas(int numPaginas) { this.numPaginas = numPaginas; }
 
     public String getDescripcion() { return descripcion; }
     public void setDescripcion(String descripcion) { this.descripcion = descripcion; }

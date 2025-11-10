@@ -1,7 +1,7 @@
 package vista;
 
-import model.Usuario;
 import model.TipoUsuario;
+import model.Usuario;
 
 import javax.swing.*;
 import java.awt.*;

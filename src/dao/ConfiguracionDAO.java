@@ -2,7 +2,11 @@ package dao;
 
 import conexion.Conexion;
 import model.Configuracion;
-import java.sql.*;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class ConfiguracionDAO {
     public Configuracion obtenerConfiguracion() {

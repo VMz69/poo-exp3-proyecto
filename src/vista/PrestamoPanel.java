@@ -1,11 +1,11 @@
 package vista;
 
-import dao.PrestamoDAO;
 import dao.EjemplarDAO;
+import dao.PrestamoDAO;
 import dao.UsuarioDAO;
+import model.Ejemplar;
 import model.Prestamo;
 import model.Usuario;
-import model.Ejemplar;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
