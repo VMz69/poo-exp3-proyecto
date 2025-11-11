@@ -15,7 +15,6 @@ import java.util.List;
 
 /**
  * UsuarioDAO
- * - fecha_registro → java.sql.Timestamp
  * - Métodos: autenticar, insertar, obtener, buscar, mora
  */
 public class UsuarioDAO {

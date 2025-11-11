@@ -22,7 +22,7 @@ public class BusquedaEstadoPanel extends JPanel {
 
         JPanel filtros = new JPanel(new FlowLayout(FlowLayout.LEFT, 10, 10)); //Creamos nuestro nuevo jpanel donde va a ir el contenido
 
-        cmbEstado = new JComboBox<>(new String[]{"Disponible", "Prestado"}); //Dropdown para que seleccionemos el estado del ejemplar que queremos buscar.
+        cmbEstado = new JComboBox<>(new String[]{"Disponible", "Agotado"}); //Dropdown para que seleccionemos el estado del ejemplar que queremos buscar.
         txtTitulo = new JTextField(20); // Campo para buscar por titulo
         btnBuscar = new JButton("Buscar");
 
@@ -49,10 +49,12 @@ public class BusquedaEstadoPanel extends JPanel {
 
     private void ejecutarBusqueda() {
         //Capturar los valores del dropdown seleccionado y el texto, removemos espacios
-        String estado = (String) cmbEstado.getSelectedItem();
+        String textoCombo = (String) cmbEstado.getSelectedItem();
         String titulo = txtTitulo.getText().trim();
 
-        List<Ejemplar> lista = new BusquedaEjemplaresEstadoDAO().buscar(estado, titulo); // Aqui llamamos el metodo y enviamos parametros. Lo que recibimos que es un array de objetos se guarda aqui.
+        String estadoParaDAO = "Disponible".equals(textoCombo) ? "Disponible" : "Prestado";
+
+        List<Ejemplar> lista = new BusquedaEjemplaresEstadoDAO().buscar(estadoParaDAO, titulo); // Aqui llamamos el metodo y enviamos parametros. Lo que recibimos que es un array de objetos se guarda aqui.
 
         modelo.setRowCount(0); //limpiar por si habian rows antes
 
@@ -64,7 +66,7 @@ public class BusquedaEstadoPanel extends JPanel {
                     e.getUbicacion().getSeccion() + "-" +
                     e.getUbicacion().getEstante();
 
-            String estadoRow = e.getCantidadDisponible() > 0 ? "Disponible" : "Prestado"; // Ternary operator que dependiendo de la cantidad define si es disponible o prestado
+            String estadoRow = e.getCantidadDisponible() > 0 ? "Disponible" : "Agotado"; // Ternary operator que dependiendo de la cantidad define si es disponible o agotado
 
             modelo.addRow(new Object[]{ //Agregamos la fila completa con lo que viene de la DB  (ya convertido a objetos) mas lo que nosotros construimos aqui: ubicacion y estado
                     e.getIdEjemplar(),

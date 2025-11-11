@@ -10,10 +10,9 @@ import java.awt.*;
 import java.util.List;
 
 /**
- * Panel de Usuarios - FASE 1 100%
+ * Panel de Usuarios
  * - Muestra: ID, Nombre, Usuario, Correo, Rol, Mora (Sí/No), Monto Mora, Estado
  * - Solo visible para Administrador
- * - Actualización en tiempo real (mora)
  */
 public class UsuarioPanel extends JPanel {
     private JTextField txtNombre, txtCorreo, txtUsuario, txtContrasena;

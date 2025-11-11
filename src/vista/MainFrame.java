@@ -159,23 +159,4 @@ public class MainFrame extends JFrame {
             new LoginFrame().setVisible(true);
         }
     }
-
-    // === MAIN DE PRUEBA ===
-    public static void main(String[] args) {
-        EventQueue.invokeLater(() -> {
-            Usuario admin = new Usuario();
-            admin.setNombreCompleto("Ana López");
-            admin.setUsuario("ana.lopez");
-            admin.setCorreo("ana@donbosco.edu");
-            admin.setTieneMora(false);
-            admin.setMontoMora(0.0);
-
-            TipoUsuario tipo = new TipoUsuario();
-            tipo.setIdTipo(1);
-            tipo.setNombreTipo("Administrador");
-            admin.setTipoUsuario(tipo);
-
-            new MainFrame(admin).setVisible(true);
-        });
-    }
 }
