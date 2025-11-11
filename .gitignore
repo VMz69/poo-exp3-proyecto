@@ -28,3 +28,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+mysql-connector-j-9.4.0.jar
+log4j-api-2.25.2.jar
+log4j-core-2.25.2.jar

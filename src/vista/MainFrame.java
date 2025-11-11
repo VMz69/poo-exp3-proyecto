@@ -99,6 +99,7 @@ public class MainFrame extends JFrame {
 
         tabs.addTab("Ejemplares", new JScrollPane(new EjemplarPanel()));
         tabs.addTab("Préstamos", new JScrollPane(new PrestamoPanel()));
+        tabs.addTab("Préstamos", new JScrollPane(new BusquedaEjemplarUnidades()));
     }
 
     // === ACTUALIZAR EJEMPLARES ===
