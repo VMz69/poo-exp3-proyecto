@@ -1,12 +1,12 @@
 package dao;
 
 import conexion.Conexion;
-import model.Prestamo;
-import model.Usuario;
-import model.Ejemplar;
-import model.TipoUsuario;
+import model.*;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -56,11 +56,12 @@ public class PrestamoDAO {
 
         try {
             conn = Conexion.conectar();
-            String sql = "SELECT p.*, u.*, e.*, tu.nombre_tipo " +
+            String sql = "SELECT p.*, u.*, e.*, tu.nombre_tipo, td.id_tipo_doc, td.nombre_tipo as tipo_doc_nombre " +
                     "FROM prestamo p " +
                     "JOIN usuarios u ON p.id_usuario = u.id_usuario " +
                     "JOIN ejemplar e ON p.id_ejemplar = e.id_ejemplar " +
                     "JOIN tipo_usuario tu ON u.id_tipo = tu.id_tipo " +
+                    "JOIN tipo_documento td ON e.id_tipo_documento = td.id_tipo_doc " +
                     "WHERE p.id_prestamo = ?";
 
             ps = conn.prepareStatement(sql);
@@ -95,13 +96,19 @@ public class PrestamoDAO {
                 u.setTipoUsuario(tu);
                 p.setUsuario(u);
 
-                // Ejemplar
-                Ejemplar e = new Ejemplar();
+                // Ejemplar - USAR FACTORY
+                TipoDocumento td = new TipoDocumento();
+                td.setIdTipoDoc(rs.getInt("id_tipo_doc"));
+                td.setNombreTipo(rs.getString("tipo_doc_nombre"));
+
+                Ejemplar e = EjemplarFactory.crearEjemplar(td);
                 e.setIdEjemplar(rs.getInt("id_ejemplar"));
                 e.setTitulo(rs.getString("titulo"));
                 e.setAutor(rs.getString("autor"));
                 e.setCantidadDisponible(rs.getInt("cantidad_disponible"));
                 e.setCantidadTotal(rs.getInt("cantidad_total"));
+                e.setTipoDocumento(td);
+
                 p.setEjemplar(e);
             }
         } catch (SQLException e) {
@@ -125,10 +132,11 @@ public class PrestamoDAO {
 
         try {
             conn = Conexion.conectar();
-            String sql = "SELECT p.*, u.nombre_completo, e.titulo " +
+            String sql = "SELECT p.*, u.nombre_completo, e.titulo, td.id_tipo_doc, td.nombre_tipo as tipo_doc_nombre " +
                     "FROM prestamo p " +
                     "JOIN usuarios u ON p.id_usuario = u.id_usuario " +
                     "JOIN ejemplar e ON p.id_ejemplar = e.id_ejemplar " +
+                    "JOIN tipo_documento td ON e.id_tipo_documento = td.id_tipo_doc " +
                     "WHERE p.estado = 'Activo' ORDER BY p.fecha_prestamo DESC";
 
             ps = conn.prepareStatement(sql);
@@ -151,9 +159,15 @@ public class PrestamoDAO {
                 u.setNombreCompleto(rs.getString("nombre_completo"));
                 p.setUsuario(u);
 
-                Ejemplar e = new Ejemplar();
+                // Ejemplar - USAR FACTORY
+                TipoDocumento td = new TipoDocumento();
+                td.setIdTipoDoc(rs.getInt("id_tipo_doc"));
+                td.setNombreTipo(rs.getString("tipo_doc_nombre"));
+
+                Ejemplar e = EjemplarFactory.crearEjemplar(td);
                 e.setIdEjemplar(rs.getInt("id_ejemplar"));
                 e.setTitulo(rs.getString("titulo"));
+                e.setTipoDocumento(td);
                 p.setEjemplar(e);
 
                 lista.add(p);
@@ -201,7 +215,7 @@ public class PrestamoDAO {
     }
 
     // ========================================
-    // MÉTODO AUXILIAR: MAPEAR PRÉSTAMO COMPLETO
+    // MÉTODO AUXILIAR: MAPEAR PRÉSTAMO COMPLETO (ACTUALIZADO)
     // ========================================
     private Prestamo mapearPrestamoCompleto(ResultSet rs) throws SQLException {
         Prestamo p = new Prestamo();
@@ -229,20 +243,29 @@ public class PrestamoDAO {
         u.setTipoUsuario(tu);
         p.setUsuario(u);
 
-        // Ejemplar completo
-        Ejemplar e = new Ejemplar();
+        // Ejemplar completo - USAR FACTORY
+        TipoDocumento td = new TipoDocumento();
+        td.setIdTipoDoc(rs.getInt("id_tipo_doc"));
+        td.setNombreTipo(rs.getString("tipo_doc_nombre"));
+
+        Ejemplar e = EjemplarFactory.crearEjemplar(td);
         e.setIdEjemplar(rs.getInt("id_ejemplar"));
         e.setTitulo(rs.getString("titulo"));
         e.setAutor(rs.getString("autor"));
         e.setCantidadDisponible(rs.getInt("cantidad_disponible"));
         e.setCantidadTotal(rs.getInt("cantidad_total"));
+        e.setTipoDocumento(td);
 
-        // Ubicación
-        String ubicacion = rs.getString("edificio") + "-" +
-                rs.getString("piso") + "-" +
-                rs.getString("seccion") + "-" +
-                rs.getString("estante");
-        // (puedes crear un objeto Ubicacion si lo necesitas)
+        // Ubicación (si se necesita)
+        String ubicacion = "";
+        try {
+            ubicacion = rs.getString("edificio") + "-" +
+                    rs.getString("piso") + "-" +
+                    rs.getString("seccion") + "-" +
+                    rs.getString("estante");
+        } catch (SQLException ex) {
+            // Si no hay columnas de ubicación, ignorar
+        }
 
         p.setEjemplar(e);
         return p;

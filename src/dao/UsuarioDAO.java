@@ -1,12 +1,15 @@
 package dao;
 
 import conexion.Conexion;
-import model.Usuario;
 import model.TipoUsuario;
+import model.Usuario;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -160,7 +163,7 @@ public class UsuarioDAO {
                     "WHERE u.nombre_completo LIKE ? OR u.usuario LIKE ? OR u.correo LIKE ?";
             ps = conn.prepareStatement(sql);
 
-            String like = "%" + criterio + "%undles";
+            String like = "%" + criterio + "%";
             ps.setString(1, like);
             ps.setString(2, like);
             ps.setString(3, like);
@@ -269,6 +272,23 @@ public class UsuarioDAO {
         }
         return lista;
     }
+
+    // ========================================
+    // 9. ACTUALIZAR CONTRASEÑA
+    // ========================================
+    public boolean actualizarContrasena(Usuario u) {
+        String sql = "UPDATE usuarios SET contrasena = ? WHERE id_usuario = ?";
+        try (Connection conn = Conexion.conectar();
+             PreparedStatement ps = conn.prepareStatement(sql)) {
+            ps.setString(1, u.getContrasena());
+            ps.setInt(2, u.getIdUsuario());
+            return ps.executeUpdate() > 0;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
 
     // ========================================
     // MÉTODO AUXILIAR: MAPEAR RESULTSET A USUARIO

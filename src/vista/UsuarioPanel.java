@@ -1,8 +1,8 @@
 package vista;
 
 import dao.UsuarioDAO;
-import model.Usuario;
 import model.TipoUsuario;
+import model.Usuario;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -18,7 +18,7 @@ import java.util.List;
 public class UsuarioPanel extends JPanel {
     private JTextField txtNombre, txtCorreo, txtUsuario, txtContrasena;
     private JComboBox<TipoUsuario> cmbTipo;
-    private JButton btnGuardar, btnLimpiar, btnBuscar;
+    private JButton btnGuardar, btnLimpiar, btnBuscar, btnCambioPass;
     private JTable tabla;
     private DefaultTableModel modelo;
 
@@ -86,12 +86,19 @@ public class UsuarioPanel extends JPanel {
         btnBuscar.setBackground(new Color(0, 123, 255));
         btnBuscar.setForeground(Color.WHITE);
         panelSur.add(btnBuscar);
+
+        btnCambioPass = new JButton("Restablecer Contraseña");
+        btnCambioPass.setBackground(new Color(220, 53, 69));
+        btnCambioPass.setForeground(Color.WHITE);
+        panelSur.add(btnCambioPass);
+
         add(panelSur, BorderLayout.SOUTH);
 
         // === ACCIONES ===
         btnGuardar.addActionListener(e -> guardarUsuario());
         btnLimpiar.addActionListener(e -> limpiarCampos());
         btnBuscar.addActionListener(e -> buscarUsuario());
+        btnCambioPass.addActionListener(e -> restablecerPass());
 
         cargarCombos();
         cargarUsuarios(); // Carga inicial
@@ -185,6 +192,34 @@ public class UsuarioPanel extends JPanel {
                     monto,
                     estado
             });
+        }
+    }
+
+    private void restablecerPass(){
+        int fila = tabla.getSelectedRow();
+        if (fila == -1) {
+            JOptionPane.showMessageDialog(this, "Seleccione un usuario", "Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+
+        int idUsuario = (int) modelo.getValueAt(fila, 0);
+        String nombreUsuarioSelec = (String) modelo.getValueAt(fila,1);
+        UsuarioDAO udao = new UsuarioDAO();
+        Usuario u = udao.obtenerPorId(idUsuario);
+
+        if (u != null) {
+            String nuevaContrasena = JOptionPane.showInputDialog(this, "Ingrese la nueva contraseña para " + nombreUsuarioSelec + ":");
+
+            if (nuevaContrasena != null && !nuevaContrasena.trim().isEmpty()) {
+                u.setContrasena(nuevaContrasena);
+
+                if (udao.actualizarContrasena(u)) {
+                    JOptionPane.showMessageDialog(this, "Contraseña actualizada correctamente.");
+                    //cargarUsuarios(); // RECARGA tabla de usuarios
+                } else {
+                    JOptionPane.showMessageDialog(this, "Error al actualizar la contraseña.", "Error", JOptionPane.ERROR_MESSAGE);
+                }
+            }
         }
     }
 

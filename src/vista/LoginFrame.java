@@ -2,6 +2,7 @@ package vista;
 
 import dao.UsuarioDAO;
 import model.Usuario;
+
 import javax.swing.*;
 import java.awt.*;
 

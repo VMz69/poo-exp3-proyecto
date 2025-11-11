@@ -1,7 +1,7 @@
 package vista;
 
-import model.Usuario;
 import model.TipoUsuario;
+import model.Usuario;
 
 import javax.swing.*;
 import java.awt.*;
@@ -26,8 +26,8 @@ public class MainFrame extends JFrame {
     }
 
     private void configurarVentana() {
-        setTitle("Mediateca - " + usuario.getNombreCompleto() + " (" + usuario.getTipoUsuario().getNombreTipo() + ")");
-        setSize(1200, 750);
+        setTitle("Biblioteca - " + usuario.getNombreCompleto() + " (" + usuario.getTipoUsuario().getNombreTipo() + ")");
+        setSize(1300, 750);
         setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         setLocationRelativeTo(null);
         setResizable(true);
