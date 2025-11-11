@@ -8,7 +8,7 @@ import java.sql.*;
 public class Conexion {
     private static final String URL = "jdbc:mysql://localhost:3306/biblioteca?useSSL=false";
     private static final String USER = "root";
-    private static final String PASS = "";
+    private static final String PASS = "YourStrong!Passw0rd";
     private static final Logger log = LogManager.getLogger(Conexion.class);
 
     public static synchronized Connection conectar() throws SQLException {
