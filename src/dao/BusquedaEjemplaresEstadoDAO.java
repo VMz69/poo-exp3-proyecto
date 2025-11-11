@@ -1,10 +1,12 @@
 package dao;
 
 import conexion.Conexion;
-import model.Ejemplar;
-import model.TipoDocumento;
-import model.Categoria;
-import model.Ubicacion;
+//M//import model.Ejemplar;
+//import model.TipoDocumento;
+//import model.Categoria;
+//import model.Ubicacion;
+
+import model.*;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -56,8 +58,16 @@ public class BusquedaEjemplaresEstadoDAO {
         return lista; //Esto es lo que nuestra clase DAO retorna a la vista.
     }
 
-    private Ejemplar mapearEjemplar(ResultSet rs) throws SQLException { //Este es nuestro metodo constructor de objetos y tiene todos los campos posibles. Convierte el sql en bruto a algo con lo que swing puede trabajar.
-        Ejemplar e = new Ejemplar();
+//>M//    private Ejemplar mapearEjemplar(ResultSet rs) throws SQLException { //Este es nuestro metodo constructor de objetos y tiene todos los campos posibles. Convierte el sql en bruto a algo con lo que swing puede trabajar.
+//        Ejemplar e = new Ejemplar();
+private Ejemplar mapearEjemplar(ResultSet rs) throws SQLException {
+    // Obtener tipo de documento primero
+    TipoDocumento td = new TipoDocumento();
+    td.setIdTipoDoc(rs.getInt("id_tipo_doc"));
+    td.setNombreTipo(rs.getString("nombre_tipo"));
+
+    // Crear instancia específica según el tipo usando Factory
+    Ejemplar e = EjemplarFactory.crearEjemplar(td);
 
         // llamando los setters del modelo ejemplar, para que posteriormente pueda leerlos en el panel y no le llegue directamente el result set
         e.setIdEjemplar(rs.getInt("id_ejemplar"));
@@ -68,17 +78,29 @@ public class BusquedaEjemplaresEstadoDAO {
         e.setAnioPublicacion(rs.getInt("anio_publicacion"));
         e.setNumeroEdicion(rs.getString("numero_edicion"));
         e.setIdioma(rs.getString("idioma"));
-        e.setNumPaginas(rs.getInt("num_paginas"));
+//M//        e.setNumPaginas(rs.getInt("num_paginas"));
         e.setDescripcion(rs.getString("descripcion"));
         e.setCantidadTotal(rs.getInt("cantidad_total"));
         e.setCantidadDisponible(rs.getInt("cantidad_disponible"));
         e.setActivo(rs.getBoolean("activo"));
 
-        TipoDocumento td = new TipoDocumento(); // Sub objeto
-        td.setIdTipoDoc(rs.getInt("id_tipo_doc"));
-        td.setNombreTipo(rs.getString("nombre_tipo"));
+//M//        TipoDocumento td = new TipoDocumento(); // Sub objeto
+//        td.setIdTipoDoc(rs.getInt("id_tipo_doc"));
+//        td.setNombreTipo(rs.getString("nombre_tipo"));
         e.setTipoDocumento(td);
-
+    // Mapear num_paginas según el tipo específico
+    int paginas = rs.getInt("num_paginas");
+    if (e instanceof Libro) {
+        ((Libro) e).setNumPaginas(paginas);
+    } else if (e instanceof Tesis) {
+        ((Tesis) e).setNumPaginas(paginas);
+    } else if (e instanceof Revista) {
+        ((Revista) e).setNumPaginas(paginas);
+    } else if (e instanceof Informe) {
+        ((Informe) e).setNumPaginas(paginas);
+    } else if (e instanceof Manual) {
+        ((Manual) e).setNumPaginas(paginas);
+    }
         Categoria c = new Categoria(); // Sub objeto
         c.setIdCategoria(rs.getInt("id_categoria"));
         c.setNombreCategoria(rs.getString("nombre_categoria"));
