@@ -3,9 +3,11 @@ package vista;
 import dao.EjemplarDAO;
 import dao.PrestamoDAO;
 import dao.UsuarioDAO;
+import dao.ConfiguracionDAO;
 import model.Ejemplar;
 import model.Prestamo;
 import model.Usuario;
+import model.Configuracion;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -128,10 +130,40 @@ public class PrestamoPanel extends JPanel {
             UsuarioDAO udao = new UsuarioDAO();
             EjemplarDAO edao = new EjemplarDAO();
             PrestamoDAO pdao = new PrestamoDAO();
+            ConfiguracionDAO cdao = new ConfiguracionDAO();
 
-            // VALIDACIÓN MORA
-            if (udao.tieneMora(idUsuario)) {
-                JOptionPane.showMessageDialog(this, "Usuario con mora. No puede prestar.", "Error", JOptionPane.ERROR_MESSAGE);
+            // Obtener usuario
+            Usuario u = udao.obtenerPorId(idUsuario);
+            if (u == null) {
+                JOptionPane.showMessageDialog(this, "Usuario no encontrado.", "Error", JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+
+            // Vaidacion de la mora
+            if (u.isTieneMora()) {
+                JOptionPane.showMessageDialog(this,
+                        "Usuario con mora de $/. " + String.format("%.2f", u.getMontoMora()) +
+                                ". No puede realizar préstamos.",
+                        "Error", JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+
+            // Validacion del limite de prestamos
+            Configuracion config = cdao.obtenerConfiguracion();
+            int prestamosActivos = pdao.contarPrestamosActivos(idUsuario);
+
+            int limiteMax = u.getTipoUsuario().getNombreTipo().equalsIgnoreCase("Profesor")
+                    ? config.getMaxPrestamosProfesor()
+                    : config.getMaxPrestamosAlumno();
+
+            if (prestamosActivos >= limiteMax) {
+                JOptionPane.showMessageDialog(this,
+                        "<html><b>Límite de préstamos alcanzado</b><br>" +
+                                "Usuario: " + u.getNombreCompleto() + " (" + u.getTipoUsuario().getNombreTipo() + ")<br>" +
+                                "Préstamos activos: " + prestamosActivos + " / " + limiteMax + "<br>" +
+                                "Debe devolver algún ejemplar antes de realizar un nuevo préstamo." +
+                                "</html>",
+                        "Error", JOptionPane.WARNING_MESSAGE);
                 return;
             }
 
@@ -147,14 +179,22 @@ public class PrestamoPanel extends JPanel {
             p.setIdUsuario(idUsuario);
             p.setIdEjemplar(idEjemplar);
 
-            Usuario u = udao.obtenerPorId(idUsuario);
-            int dias = u.getTipoUsuario().getNombreTipo().equals("Profesor") ? 14 : 7;
+            int dias = u.getTipoUsuario().getNombreTipo().equalsIgnoreCase("Profesor")
+                    ? config.getDiasPrestamoProfesor()
+                    : config.getDiasPrestamoAlumno();
+
             LocalDate vencimiento = LocalDate.now().plusDays(dias);
-            p.setFechaVencimiento(java.sql.Date.valueOf(vencimiento)); // CORREGIDO
+            p.setFechaVencimiento(java.sql.Date.valueOf(vencimiento));
 
             if (pdao.insertar(p)) {
                 edao.actualizarDisponibilidad(idEjemplar, -1);
-                JOptionPane.showMessageDialog(this, "Préstamo realizado con éxito");
+                JOptionPane.showMessageDialog(this,
+                        "<html><b>Préstamo realizado con éxito</b><br>" +
+                                "Usuario: " + u.getNombreCompleto() + "<br>" +
+                                "Ejemplar: " + e.getTitulo() + "<br>" +
+                                "Vencimiento: " + vencimiento + "<br>" +
+                                "Préstamos activos: " + (prestamosActivos + 1) + " / " + limiteMax +
+                                "</html>");
                 limpiarCampos();
                 cargarPrestamos();
 
@@ -203,7 +243,7 @@ public class PrestamoPanel extends JPanel {
                     double nuevaMora = u.getMontoMora() + mora;
                     udao.actualizarMora(p.getIdUsuario(), nuevaMora > 0, nuevaMora);
 
-                    JOptionPane.showMessageDialog(this, "Devolución exitosa" + (mora > 0 ? " (Mora: S/. " + mora + ")" : ""));
+                    JOptionPane.showMessageDialog(this, "Devolución exitosa" + (mora > 0 ? " (Mora: $/. " + mora + ")" : ""));
                     cargarPrestamos();
 
                     MainFrame main = (MainFrame) SwingUtilities.getWindowAncestor(this);

@@ -9,10 +9,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 public class PrestamoDAO {
-    private static final org.apache.logging.log4j.Logger log =
-            org.apache.logging.log4j.LogManager.getLogger(PrestamoDAO.class);
+    private static final Logger log = LogManager.getLogger(PrestamoDAO.class);
 
     // ========================================
     // 1. INSERTAR PRÉSTAMO
@@ -215,7 +216,7 @@ public class PrestamoDAO {
     }
 
     // ========================================
-    // MÉTODO AUXILIAR: MAPEAR PRÉSTAMO COMPLETO (ACTUALIZADO)
+    // METODO AUXILIAR: MAPEAR PRÉSTAMO COMPLETO
     // ========================================
     private Prestamo mapearPrestamoCompleto(ResultSet rs) throws SQLException {
         Prestamo p = new Prestamo();
@@ -269,5 +270,36 @@ public class PrestamoDAO {
 
         p.setEjemplar(e);
         return p;
+    }
+
+    // ========================================
+    // Contar Cantidad de prestamos activos por usuario
+    // ========================================
+    public int contarPrestamosActivos(int idUsuario) {
+        Connection conn = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        int count = 0;
+
+        try {
+            conn = Conexion.conectar();
+            String sql = "SELECT COUNT(*) as total FROM prestamo " +
+                    "WHERE id_usuario = ? AND estado = 'Activo'";
+            ps = conn.prepareStatement(sql);
+            ps.setInt(1, idUsuario);
+            rs = ps.executeQuery();
+
+            if (rs.next()) {
+                count = rs.getInt("total");
+            }
+            log.info("Usuario {} tiene {} préstamos activos", idUsuario, count);
+        } catch (SQLException e) {
+            log.error("Error al contar préstamos activos del usuario: {}", idUsuario, e);
+        } finally {
+            Conexion.cerrar(rs);
+            Conexion.cerrar(ps);
+            Conexion.cerrar(conn);
+        }
+        return count;
     }
 }
