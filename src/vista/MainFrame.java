@@ -1,7 +1,7 @@
 package vista;
 
-import model.Usuario;
 import model.TipoUsuario;
+import model.Usuario;
 
 import javax.swing.*;
 import java.awt.*;
@@ -26,8 +26,8 @@ public class MainFrame extends JFrame {
     }
 
     private void configurarVentana() {
-        setTitle("Mediateca - " + usuario.getNombreCompleto() + " (" + usuario.getTipoUsuario().getNombreTipo() + ")");
-        setSize(1200, 750);
+        setTitle("Biblioteca - " + usuario.getNombreCompleto() + " (" + usuario.getTipoUsuario().getNombreTipo() + ")");
+        setSize(1300, 750);
         setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         setLocationRelativeTo(null);
         setResizable(true);
@@ -99,7 +99,13 @@ public class MainFrame extends JFrame {
 
         tabs.addTab("Ejemplares", new JScrollPane(new EjemplarPanel()));
         tabs.addTab("Préstamos", new JScrollPane(new PrestamoPanel()));
+         //Gerson: tab BusqeudaEjeplar
         tabs.addTab("Busqueda Ejemplar", new JScrollPane(new BusquedaEjemplarUnidades()));
+
+        // Milton: agregar otra pestaña para BusquedaEstadoPanel
+        tabs.addTab("Búsqueda Estado", new JScrollPane(new BusquedaEstadoPanel()));
+        // Milton: aqui termina la pestaña extra
+
     }
 
     // === ACTUALIZAR EJEMPLARES ===
@@ -155,24 +161,5 @@ public class MainFrame extends JFrame {
             dispose();
             new LoginFrame().setVisible(true);
         }
-    }
-
-    // === MAIN DE PRUEBA ===
-    public static void main(String[] args) {
-        EventQueue.invokeLater(() -> {
-            Usuario admin = new Usuario();
-            admin.setNombreCompleto("Ana López");
-            admin.setUsuario("ana.lopez");
-            admin.setCorreo("ana@donbosco.edu");
-            admin.setTieneMora(false);
-            admin.setMontoMora(0.0);
-
-            TipoUsuario tipo = new TipoUsuario();
-            tipo.setIdTipo(1);
-            tipo.setNombreTipo("Administrador");
-            admin.setTipoUsuario(tipo);
-
-            new MainFrame(admin).setVisible(true);
-        });
     }
 }

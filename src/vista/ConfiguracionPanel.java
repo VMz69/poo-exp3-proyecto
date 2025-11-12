@@ -2,6 +2,7 @@ package vista;
 
 import dao.ConfiguracionDAO;
 import model.Configuracion;
+
 import javax.swing.*;
 import java.awt.*;
 
