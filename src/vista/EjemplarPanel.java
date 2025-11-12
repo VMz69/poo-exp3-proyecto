@@ -20,16 +20,16 @@ public class EjemplarPanel extends JPanel {
 
     private JTextField txtAutor, txtEditorial, txtIsbn, txtAnio, txtEdicion, txtIdioma, txtDescripcion;
     private JTextField txtPaginas;
-    private JTextField txtDuracion, txtFormato, txtInterprete;
-    private JTextField txtUniversidad, txtFacultad, txtCarrera, txtAsesor, txtGrado;
-    private JTextField txtVolumen, txtNumero, txtISSN, txtPeriodicidad;
-    private JTextField txtColeccion, txtNumeroSerie;
+    private JTextField txtDuracion, txtInterprete; //txtFormato
+    private JTextField txtUniversidad, txtGrado; // txtFacultad, txtCarrera,txtAsesor
+    private JTextField txtPeriodicidad; //txtVolumen, txtNumero, txtISSN,
+//    private JTextField txtColeccion, txtNumeroSerie;
     private JTextField txtInstitucion, txtSupervisor;
 
     // CAMPOS PARA MANUAL
-    private JTextField txtAreaManual;
+//    private JTextField txtAreaManual;
     private JTextField txtVersionManual;
-    private JComboBox<String> cmbNivelManual;
+//    private JComboBox<String> cmbNivelManual;
 
     private JButton btnGuardar, btnBuscar, btnLimpiar;
     private JTable tabla;
@@ -192,12 +192,12 @@ public class EjemplarPanel extends JPanel {
         int y = 0;
 
         txtAutor = txtEditorial = txtIsbn = txtAnio = txtEdicion = txtIdioma = txtDescripcion = null;
-        txtPaginas = txtDuracion = txtFormato = txtInterprete = null;
-        txtUniversidad = txtFacultad = txtCarrera = txtAsesor = txtGrado = null;
-        txtVolumen = txtNumero = txtISSN = txtPeriodicidad = null;
-        txtColeccion = txtNumeroSerie = txtInstitucion = txtSupervisor = null;
-        txtAreaManual = txtVersionManual = null;
-        cmbNivelManual = null;
+        txtPaginas = txtDuracion = txtInterprete = null;//txtFormato
+        txtUniversidad = txtGrado = null; //txtFacultad = txtCarrera = txtAsesor
+        txtPeriodicidad = null; //txtVolumen = txtNumero = txtISSN =
+        txtInstitucion = txtSupervisor = null; //txtColeccion = txtNumeroSerie =
+//        txtAreaManual = txtVersionManual = null;
+//        cmbNivelManual = null;
 
         if (tipoNombre.contains("LIBRO")) {
             txtAutor = new JTextField(25);
@@ -207,8 +207,8 @@ public class EjemplarPanel extends JPanel {
             txtEdicion = new JTextField(15);
             txtIdioma = new JTextField(15);
             txtPaginas = new JTextField(10);
-            txtColeccion = new JTextField(25);
-            txtNumeroSerie = new JTextField(15);
+//            txtColeccion = new JTextField(25);
+//            txtNumeroSerie = new JTextField(15);
             txtDescripcion = new JTextField(25);
 
             addRowDinamico(gbc, "Autor:", txtAutor, y++, false);
@@ -218,8 +218,8 @@ public class EjemplarPanel extends JPanel {
             addRowDinamico(gbc, "Edición:", txtEdicion, y++, false);
             addRowDinamico(gbc, "Idioma:", txtIdioma, y++, false);
             addRowDinamico(gbc, "Páginas:", txtPaginas, y++, false);
-            addRowDinamico(gbc, "Colección:", txtColeccion, y++, false);
-            addRowDinamico(gbc, "Núm. Serie:", txtNumeroSerie, y++, false);
+//            addRowDinamico(gbc, "Colección:", txtColeccion, y++, false);
+//            addRowDinamico(gbc, "Núm. Serie:", txtNumeroSerie, y++, false);
             addRowDinamico(gbc, "Descripción:", txtDescripcion, y++, false);
         }
         else if (tipoNombre.contains("TESIS")) {
@@ -228,17 +228,17 @@ public class EjemplarPanel extends JPanel {
             txtIdioma = new JTextField(15);
             txtPaginas = new JTextField(10);
             txtUniversidad = new JTextField(25);
-            txtFacultad = new JTextField(25);
-            txtCarrera = new JTextField(25);
-            txtAsesor = new JTextField(25);
+//            txtFacultad = new JTextField(25);
+//            txtCarrera = new JTextField(25);
+//            txtAsesor = new JTextField(25);
             txtGrado = new JTextField(20);
             txtDescripcion = new JTextField(25);
 
             addRowDinamico(gbc, "Tesista (Autor):*", txtAutor, y++, true);
             addRowDinamico(gbc, "Universidad:*", txtUniversidad, y++, true);
-            addRowDinamico(gbc, "Facultad:", txtFacultad, y++, false);
-            addRowDinamico(gbc, "Carrera:", txtCarrera, y++, false);
-            addRowDinamico(gbc, "Asesor:", txtAsesor, y++, false);
+//            addRowDinamico(gbc, "Facultad:", txtFacultad, y++, false);
+//            addRowDinamico(gbc, "Carrera:", txtCarrera, y++, false);
+//            addRowDinamico(gbc, "Asesor:", txtAsesor, y++, false);
             addRowDinamico(gbc, "Grado Académico:*", txtGrado, y++, true);
             addRowDinamico(gbc, "Año:", txtAnio, y++, false);
             addRowDinamico(gbc, "Idioma:", txtIdioma, y++, false);
@@ -251,17 +251,17 @@ public class EjemplarPanel extends JPanel {
             txtAnio = new JTextField(10);
             txtIdioma = new JTextField(15);
             txtPaginas = new JTextField(10);
-            txtVolumen = new JTextField(15);
-            txtNumero = new JTextField(15);
-            txtISSN = new JTextField(20);
+//            txtVolumen = new JTextField(15);
+//            txtNumero = new JTextField(15);
+//            txtISSN = new JTextField(20);
             txtPeriodicidad = new JTextField(20);
             txtDescripcion = new JTextField(25);
 
             addRowDinamico(gbc, "Autores/Editores:", txtAutor, y++, false);
             addRowDinamico(gbc, "Editorial:", txtEditorial, y++, false);
-            addRowDinamico(gbc, "Volumen:", txtVolumen, y++, false);
-            addRowDinamico(gbc, "Número:", txtNumero, y++, false);
-            addRowDinamico(gbc, "ISSN:", txtISSN, y++, false);
+//            addRowDinamico(gbc, "Volumen:", txtVolumen, y++, false);
+//            addRowDinamico(gbc, "Número:", txtNumero, y++, false);
+//            addRowDinamico(gbc, "ISSN:", txtISSN, y++, false);
             addRowDinamico(gbc, "Periodicidad:", txtPeriodicidad, y++, false);
             addRowDinamico(gbc, "Año:", txtAnio, y++, false);
             addRowDinamico(gbc, "Idioma:", txtIdioma, y++, false);
@@ -274,7 +274,7 @@ public class EjemplarPanel extends JPanel {
             txtAnio = new JTextField(10);
             txtEdicion = new JTextField(15);
             txtDuracion = new JTextField(10);
-            txtFormato = new JTextField(20);
+//            txtFormato = new JTextField(20);
             txtInterprete = new JTextField(25);
             txtDescripcion = new JTextField(25);
 
@@ -282,7 +282,7 @@ public class EjemplarPanel extends JPanel {
             addRowDinamico(gbc, "Álbum:", txtAutor, y++, false);
             addRowDinamico(gbc, "Sello Discográfico:", txtEditorial, y++, false);
             addRowDinamico(gbc, "Duración (min):", txtDuracion, y++, false);
-            addRowDinamico(gbc, "Formato:", txtFormato, y++, false);
+//            addRowDinamico(gbc, "Formato:", txtFormato, y++, false);
             addRowDinamico(gbc, "Año:", txtAnio, y++, false);
             addRowDinamico(gbc, "Edición:", txtEdicion, y++, false);
             addRowDinamico(gbc, "Descripción:", txtDescripcion, y++, false);
@@ -294,15 +294,15 @@ public class EjemplarPanel extends JPanel {
             txtEdicion = new JTextField(15);
             txtIdioma = new JTextField(15);
             txtDuracion = new JTextField(10);
-            txtFormato = new JTextField(20);
+//            txtFormato = new JTextField(20);
             txtInterprete = new JTextField(25);
             txtDescripcion = new JTextField(25);
 
             addRowDinamico(gbc, "Director:", txtInterprete, y++, false);
-            addRowDinamico(gbc, "Título Original:", txtAutor, y++, false);
+//            addRowDinamico(gbc, "Título Original:", txtAutor, y++, false);
             addRowDinamico(gbc, "Productora:", txtEditorial, y++, false);
             addRowDinamico(gbc, "Duración (min):", txtDuracion, y++, false);
-            addRowDinamico(gbc, "Formato:", txtFormato, y++, false);
+//            addRowDinamico(gbc, "Formato:", txtFormato, y++, false);
             addRowDinamico(gbc, "Año:", txtAnio, y++, false);
             addRowDinamico(gbc, "Edición:", txtEdicion, y++, false);
             addRowDinamico(gbc, "Idioma:", txtIdioma, y++, false);
@@ -330,15 +330,15 @@ public class EjemplarPanel extends JPanel {
             txtPaginas = new JTextField(10);
             txtDescripcion = new JTextField(25);
 
-            txtAreaManual = new JTextField(25);
+//            txtAreaManual = new JTextField(25);
             txtVersionManual = new JTextField(15);
-            cmbNivelManual = new JComboBox<>(new String[]{"Principiante", "Intermedio", "Avanzado"});
-            cmbNivelManual.setSelectedIndex(1);
+//            cmbNivelManual = new JComboBox<>(new String[]{"Principiante", "Intermedio", "Avanzado"});
+//            cmbNivelManual.setSelectedIndex(1);
 
             addRowDinamico(gbc, "Autor/Responsable:", txtAutor, y++, false);
             addRowDinamico(gbc, "Editorial/Organización:", txtEditorial, y++, false);
-            addRowDinamico(gbc, "Área o Tema:*", txtAreaManual, y++, true);
-            addRowDinamico(gbc, "Nivel de usuario:", cmbNivelManual, y++, false);
+//            addRowDinamico(gbc, "Área o Tema:*", txtAreaManual, y++, true);
+//            addRowDinamico(gbc, "Nivel de usuario:", cmbNivelManual, y++, false);
             addRowDinamico(gbc, "Versión:", txtVersionManual, y++, false);
             addRowDinamico(gbc, "Año:", txtAnio, y++, false);
             addRowDinamico(gbc, "Páginas:", txtPaginas, y++, false);
@@ -448,8 +448,8 @@ public class EjemplarPanel extends JPanel {
                 if (txtPaginas != null && !txtPaginas.getText().trim().isEmpty()) {
                     libro.setNumPaginas(Integer.parseInt(txtPaginas.getText().trim()));
                 }
-                if (txtColeccion != null) libro.setColeccion(txtColeccion.getText().trim());
-                if (txtNumeroSerie != null) libro.setNumeroSerie(txtNumeroSerie.getText().trim());
+//                if (txtColeccion != null) libro.setColeccion(txtColeccion.getText().trim());
+//                if (txtNumeroSerie != null) libro.setNumeroSerie(txtNumeroSerie.getText().trim());
             }
             else if (tipoNombre.contains("TESIS")) {
                 Tesis tesis = (Tesis) e;
@@ -470,18 +470,18 @@ public class EjemplarPanel extends JPanel {
                 }
                 tesis.setUniversidad(txtUniversidad.getText().trim());
                 tesis.setGradoAcademico(txtGrado.getText().trim());
-                if (txtFacultad != null) tesis.setFacultad(txtFacultad.getText().trim());
-                if (txtCarrera != null) tesis.setCarrera(txtCarrera.getText().trim());
-                if (txtAsesor != null) tesis.setAsesor(txtAsesor.getText().trim());
+//                if (txtFacultad != null) tesis.setFacultad(txtFacultad.getText().trim());
+//                if (txtCarrera != null) tesis.setCarrera(txtCarrera.getText().trim());
+//                if (txtAsesor != null) tesis.setAsesor(txtAsesor.getText().trim());
             }
             else if (tipoNombre.contains("REVISTA")) {
                 Revista revista = (Revista) e;
                 if (txtPaginas != null && !txtPaginas.getText().trim().isEmpty()) {
                     revista.setNumPaginas(Integer.parseInt(txtPaginas.getText().trim()));
                 }
-                if (txtVolumen != null) revista.setVolumen(txtVolumen.getText().trim());
-                if (txtNumero != null) revista.setNumero(txtNumero.getText().trim());
-                if (txtISSN != null) revista.setIssn(txtISSN.getText().trim());
+//                if (txtVolumen != null) revista.setVolumen(txtVolumen.getText().trim());
+//                if (txtNumero != null) revista.setNumero(txtNumero.getText().trim());
+//                if (txtISSN != null) revista.setIssn(txtISSN.getText().trim());
                 if (txtPeriodicidad != null) revista.setPeriodicidad(txtPeriodicidad.getText().trim());
             }
             else if (tipoNombre.contains("CD") && !tipoNombre.contains("CD-ROM")) {
@@ -489,7 +489,7 @@ public class EjemplarPanel extends JPanel {
                 if (txtDuracion != null && !txtDuracion.getText().trim().isEmpty()) {
                     cd.setDuracion(Integer.parseInt(txtDuracion.getText().trim()));
                 }
-                if (txtFormato != null) cd.setFormato(txtFormato.getText().trim());
+//                if (txtFormato != null) cd.setFormato(txtFormato.getText().trim());
                 if (txtInterprete != null) cd.setArtista(txtInterprete.getText().trim());
             }
             else if (tipoNombre.contains("DVD") || tipoNombre.contains("CD-ROM") || tipoNombre.contains("VIDEO") || tipoNombre.contains("MULTIMEDIA")) {
@@ -497,7 +497,7 @@ public class EjemplarPanel extends JPanel {
                 if (txtDuracion != null && !txtDuracion.getText().trim().isEmpty()) {
                     dvd.setDuracion(Integer.parseInt(txtDuracion.getText().trim()));
                 }
-                if (txtFormato != null) dvd.setFormato(txtFormato.getText().trim());
+//                if (txtFormato != null) dvd.setFormato(txtFormato.getText().trim());
                 if (txtInterprete != null) dvd.setDirector(txtInterprete.getText().trim());
             }
             else if (tipoNombre.contains("INFORME")) {
@@ -511,13 +511,13 @@ public class EjemplarPanel extends JPanel {
             else if (tipoNombre.contains("MANUAL")) {
                 Manual manual = (Manual) e;
 
-                if (txtAreaManual == null || txtAreaManual.getText().trim().isEmpty()) {
-                    JOptionPane.showMessageDialog(this, "El área o tema es obligatorio para manuales", "Error", JOptionPane.ERROR_MESSAGE);
-                    txtAreaManual.requestFocus(); return;
-                }
+//                if (txtAreaManual == null || txtAreaManual.getText().trim().isEmpty()) {
+//                    JOptionPane.showMessageDialog(this, "El área o tema es obligatorio para manuales", "Error", JOptionPane.ERROR_MESSAGE);
+//                    txtAreaManual.requestFocus(); return;
+//                }
 
-                manual.setArea(txtAreaManual.getText().trim());
-                manual.setNivelUsuario((String) cmbNivelManual.getSelectedItem());
+//                manual.setArea(txtAreaManual.getText().trim());
+//                manual.setNivelUsuario((String) cmbNivelManual.getSelectedItem());
                 manual.setVersion(txtVersionManual.getText().trim());
 
                 if (txtPaginas != null && !txtPaginas.getText().trim().isEmpty()) {
