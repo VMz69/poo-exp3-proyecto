@@ -1,0 +1,1633 @@
+2025-11-11 21:03:59 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:03:59 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:03:59 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 21:03:59 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:03:59 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:03:59 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:47 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:47 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:47 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 21:04:47 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:47 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:47 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:47 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:47 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:47 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:47 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:47 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:47 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:47 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:47 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:47 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:47 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:47 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:47 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:47 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:47 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:47 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:47 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:47 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:47 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:47 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:47 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:47 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:48 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:48 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:48 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:48 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:48 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:48 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:48 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:48 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:48 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:48 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:48 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:48 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:48 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:48 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:48 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:48 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:48 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:04:48 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:04:48 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:04:48 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:48 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:48 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:48 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:48 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:04:48 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 21:05:59 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:05:59 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:05:59 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:05:59 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:05:59 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:05:59 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:05:59 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:05:59 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:05:59 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:05:59 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:05:59 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:05:59 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:05:59 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:05:59 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:05:59 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:05:59 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:05:59 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:05:59 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:05:59 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:05:59 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:05:59 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:05:59 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:05:59 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:06:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:06:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:06:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:06:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:06:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:06:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:55 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 21:06:56 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:06:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:06:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:06:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:06:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:06:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:06:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:06:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:06:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:06:56 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:06:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:06:57 ERROR BusquedaUbicacionDAO:30 - Error al insertar ejemplar
+java.sql.SQLSyntaxErrorException: FUNCTION biblioteca.DISTINC does not exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1056)
+	at dao.BusquedaUbicacionDAO.obtenerDatoCoordenada(BusquedaUbicacionDAO.java:25)
+	at vista.BusquedaUbicacion.<init>(BusquedaUbicacion.java:19)
+	at vista.MainFrame.cargarPestanasPorRol(MainFrame.java:104)
+	at vista.MainFrame.<init>(MainFrame.java:25)
+	at Main.lambda$0(Main.java:8)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+2025-11-11 21:07:48 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 21:07:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:07:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:07:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:07:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:07:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:07:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:07:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:07:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:07:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:07:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:07:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:07:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:13 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:13 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 21:16:14 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:16:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:16:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:16:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:16:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:16:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:16:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:16:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:16:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:16:14 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:16:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:16:14 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:06 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 21:17:07 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:17:07 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:17:07 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:17:07 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:17:07 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:17:07 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:17:07 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:17:07 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:17:07 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:17:07 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:17:07 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:17:07 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 21:18:23 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:18:23 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:18:23 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:18:23 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:18:23 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:18:23 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:18:23 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:18:23 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:18:23 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:23 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:18:23 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:18:24 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:24 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:24 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:24 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:24 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:18:24 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:23 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:23 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:23 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 21:19:23 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:19:23 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:19:23 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:19:23 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:19:24 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:19:24 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:19:24 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:19:24 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:19:24 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:19:24 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:19:24 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:19:24 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:19:24 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:19:24 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:55 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:55 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:55 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 21:28:55 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:28:55 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:28:55 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:28:55 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:55 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:55 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:28:55 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:28:55 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:28:55 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:55 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:55 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:28:55 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:28:55 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:28:55 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:55 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:55 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:28:55 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:28:55 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:28:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:56 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:28:56 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:28:56 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:28:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:56 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:28:56 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:28:56 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:28:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:56 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:28:56 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:28:56 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:28:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:56 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:28:56 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:28:56 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:28:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:56 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:28:56 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:28:56 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:28:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:56 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:28:56 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:19 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 21:30:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:30:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:30:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:30:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:30:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:30:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:30:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:30:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:30:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 21:30:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 21:30:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:21 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:21 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:21 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 21:30:21 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:18 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:18 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:18 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:03:18 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:03:18 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:03:18 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:03:19 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:03:19 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:03:19 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:03:19 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:03:19 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:03:19 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:03:19 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:03:19 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:03:19 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:03:19 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:03:19 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:04 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:10:05 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:10:05 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:10:05 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:10:05 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:10:05 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:10:05 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:10:05 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:10:05 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:10:05 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:10:05 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:10:05 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:10:05 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:13:01 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:01 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:29 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:13:30 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:30 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:30 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:30 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:30 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:30 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:30 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:30 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:30 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:13:30 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:13:30 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:13:30 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:15:28 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:15:28 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:15:28 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:15:28 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:15:28 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:15:28 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:15:28 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:15:28 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:15:28 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:15:28 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:15:28 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:28 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:29 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:29 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:29 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:29 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:29 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:29 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:29 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:29 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:29 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:15:29 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:25 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:19:26 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:19:26 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:19:26 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:19:26 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:19:26 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:19:26 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:19:26 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:19:26 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:19:26 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:19:26 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:19:26 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:19:26 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:39 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:39 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:29:40 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:29:40 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:29:40 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:29:40 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:29:40 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:29:40 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:29:40 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:29:40 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:29:40 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:29:40 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:29:40 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:29:40 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:32:02 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:32:02 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:32:02 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:32:02 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:32:02 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:32:02 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:32:02 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:32:02 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:32:02 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:32:02 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:32:02 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:32:02 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:34:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:10 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:10 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:10 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:10 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:10 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:10 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:10 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:10 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:10 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:10 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:10 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:33 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:34:34 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:34 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:34 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:34 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:34 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:34 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:34 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:34 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:34 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:34:34 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:34:34 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:34 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:34:59 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:35:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:00 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:00 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:00 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:01 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:01 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:19 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:19 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:19 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:35:19 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:19 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:19 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:19 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:19 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:19 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:19 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:19 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:20 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:20 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:20 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:32 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:32 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:32 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:35:32 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:32 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:32 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:33 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:33 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:33 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:33 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:33 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:33 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:33 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:33 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:33 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:33 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:33 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:45 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:45 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:45 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:35:45 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:45 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:45 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:46 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:46 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:46 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:46 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:46 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:46 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:46 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:46 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:35:46 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:35:46 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:35:46 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:14 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:14 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:36:14 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:36:14 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:36:14 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:36:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:14 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:14 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:36:14 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:36:14 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:36:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:14 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:14 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:36:14 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:36:14 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:36:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:14 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:14 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:36:14 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:36:14 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:36:14 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:36:15 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:36:15 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:36:15 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:36:15 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:36:15 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:36:15 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:36:15 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:36:15 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:36:15 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:36:15 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:36:15 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:36:15 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:36:15 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:36:15 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:36:15 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:36:15 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:37:50 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:37:50 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:37:50 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:37:50 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:37:50 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:37:50 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:37:50 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:37:50 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:37:50 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:37:50 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:37:50 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:51 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:51 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:51 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:51 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:51 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:51 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:51 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:51 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:51 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:37:51 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:08 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:08 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:08 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:38:08 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:38:08 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:38:08 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:38:08 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:08 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:08 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:38:08 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:38:08 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:38:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:38:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:38:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:38:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:38:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:38:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:38:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:38:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:38:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:38:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:38:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:38:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:38:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:38:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:38:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:38:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:38:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:38:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:38:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:38:09 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:38:09 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:38:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:38:09 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  UsuarioDAO:44 - Usuario autenticado: ana.lopez
+2025-11-11 22:39:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:39:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:39:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:39:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:39:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:39:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:39:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:39:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:39:49 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:49 INFO  Conexion:25 - ResultSet cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:36 - Statement cerrado exitosamente
+2025-11-11 22:39:49 INFO  Conexion:47 - Conexión cerrada exitosamente
+2025-11-11 22:39:50 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:50 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:50 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:50 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:50 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:50 INFO  Conexion:15 - Intentando conectar a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false
+2025-11-11 22:39:50 INFO  Conexion:17 - Conexión exitosa a la base de datos: jdbc:mysql://localhost:3306/biblioteca?useSSL=false

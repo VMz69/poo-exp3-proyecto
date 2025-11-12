@@ -11,6 +11,7 @@ import org.apache.logging.log4j.Logger;
 
 import conexion.Conexion;
 
+// metodo busqueda
 public class BusquedaEjemplarDAO {
     private static final Logger log = LogManager.getLogger(BusquedaEjemplarDAO.class);
     private String sqlObtenerTipoMaterial = "SELECT nombre_tipo AS tipo FROM tipo_documento";
