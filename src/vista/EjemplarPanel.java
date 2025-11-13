@@ -45,7 +45,7 @@ public class EjemplarPanel extends JPanel {
 
         JPanel formContainer = new JPanel(new BorderLayout());
         JScrollPane scrollForm = new JScrollPane(formContainer);
-        scrollForm.setPreferredSize(new Dimension(450, 650));
+        scrollForm.setPreferredSize(new Dimension(490, 500));
         scrollForm.setBorder(BorderFactory.createEmptyBorder());
 
         JPanel form = new JPanel(new GridBagLayout());
@@ -122,7 +122,7 @@ public class EjemplarPanel extends JPanel {
         tabla.getTableHeader().setFont(new Font("Segoe UI", Font.BOLD, 12));
         tabla.getTableHeader().setBackground(new Color(52, 73, 94));
         tabla.getTableHeader().setForeground(Color.WHITE);
-        tabla.setRowHeight(30);
+        tabla.setRowHeight(28);
         tabla.setFont(new Font("Segoe UI", Font.PLAIN, 12));
         tabla.setSelectionBackground(new Color(100, 149, 237));
         tabla.getColumnModel().getColumn(8).setPreferredWidth(250);
