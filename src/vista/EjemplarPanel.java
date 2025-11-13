@@ -83,7 +83,7 @@ public class EjemplarPanel extends JPanel {
         addRowObligatorio(form, gbc, "Categoría:*", cmbCat, y++);
         addRowObligatorio(form, gbc, "Ubicación:*", cmbUbi, y++);
         addRowObligatorio(form, gbc, "Cantidad Total:*", txtCantidadTotal, y++);
-        addRowObligatorio(form, gbc, "Cantidad Disponible:*", txtCantidadDisponible, y++);
+        // addRowObligatorio(form, gbc, "Cantidad Disponible:*", txtCantidadDisponible, y++);
 
         JPanel botones = new JPanel(new FlowLayout(FlowLayout.LEFT, 10, 10));
         btnGuardar = new JButton("Guardar");
@@ -102,7 +102,9 @@ public class EjemplarPanel extends JPanel {
         btnLimpiar.setCursor(new Cursor(Cursor.HAND_CURSOR));
         botones.add(btnLimpiar);
 
-        gbc.gridx = 0; gbc.gridy = y; gbc.gridwidth = 2;
+        gbc.gridx = 0;
+        gbc.gridy = y;
+        gbc.gridwidth = 2;
         gbc.insets = new Insets(20, 10, 10, 10);
         form.add(botones, gbc);
 
@@ -400,7 +402,7 @@ public class EjemplarPanel extends JPanel {
                     e.getCategoria().getNombreCategoria(),
                     ubicacion,
                     e.getCantidadTotal(),
-                    e.getCantidadDisponible(),
+                    e.getCantidadTotal(),
                     infoEspecifica
             });
         }
@@ -412,8 +414,8 @@ public class EjemplarPanel extends JPanel {
                 JOptionPane.showMessageDialog(this, "El título es obligatorio", "Error", JOptionPane.ERROR_MESSAGE);
                 txtTitulo.requestFocus(); return;
             }
-            if (txtCantidadTotal.getText().trim().isEmpty() || txtCantidadDisponible.getText().trim().isEmpty()) {
-                JOptionPane.showMessageDialog(this, "Las cantidades son obligatorias", "Error", JOptionPane.ERROR_MESSAGE);
+            if (txtCantidadTotal.getText().trim().isEmpty()) {
+                JOptionPane.showMessageDialog(this, "Las cantidad es obligatoria", "Error", JOptionPane.ERROR_MESSAGE);
                 return;
             }
             TipoDocumento tipo = (TipoDocumento) cmbTipo.getSelectedItem();
@@ -425,7 +427,7 @@ public class EjemplarPanel extends JPanel {
             Ejemplar e = EjemplarFactory.crearEjemplar(tipo);
             e.setTitulo(txtTitulo.getText().trim());
             e.setCantidadTotal(Integer.parseInt(txtCantidadTotal.getText().trim()));
-            e.setCantidadDisponible(Integer.parseInt(txtCantidadDisponible.getText().trim()));
+            e.setCantidadDisponible(Integer.parseInt(txtCantidadTotal.getText().trim()));
             e.setTipoDocumento(tipo);
             e.setCategoria((Categoria) cmbCat.getSelectedItem());
             e.setUbicacion((Ubicacion) cmbUbi.getSelectedItem());
@@ -484,7 +486,7 @@ public class EjemplarPanel extends JPanel {
 //                if (txtISSN != null) revista.setIssn(txtISSN.getText().trim());
                 if (txtPeriodicidad != null) revista.setPeriodicidad(txtPeriodicidad.getText().trim());
             }
-            else if (tipoNombre.contains("CD") && !tipoNombre.contains("CD-ROM")) {
+            else if (tipoNombre.contains("CD")) {
                 CD cd = (CD) e;
                 if (txtDuracion != null && !txtDuracion.getText().trim().isEmpty()) {
                     cd.setDuracion(Integer.parseInt(txtDuracion.getText().trim()));
@@ -492,7 +494,7 @@ public class EjemplarPanel extends JPanel {
 //                if (txtFormato != null) cd.setFormato(txtFormato.getText().trim());
                 if (txtInterprete != null) cd.setArtista(txtInterprete.getText().trim());
             }
-            else if (tipoNombre.contains("DVD") || tipoNombre.contains("CD-ROM") || tipoNombre.contains("VIDEO") || tipoNombre.contains("MULTIMEDIA")) {
+            else if (tipoNombre.contains("DVD")) {
                 DVD dvd = (DVD) e;
                 if (txtDuracion != null && !txtDuracion.getText().trim().isEmpty()) {
                     dvd.setDuracion(Integer.parseInt(txtDuracion.getText().trim()));
