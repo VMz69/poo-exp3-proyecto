@@ -1,6 +1,5 @@
 package vista;
 
-import model.TipoUsuario;
 import model.Usuario;
 
 import javax.swing.*;
@@ -100,12 +99,15 @@ public class MainFrame extends JFrame {
         tabs.addTab("Ejemplares", new JScrollPane(new EjemplarPanel()));
         tabs.addTab("Préstamos", new JScrollPane(new PrestamoPanel()));
          //Gerson: tab BusqeudaEjeplar
-        tabs.addTab("Busqueda Ejemplar", new JScrollPane(new BusquedaEjemplarUnidades()));
-        tabs.addTab("Busqueda Ubicacion", new JScrollPane(new BusquedaUbicacion()));
+//        tabs.addTab("Busqueda Ejemplar", new JScrollPane(new BusquedaEjemplarUnidades()));
+//        tabs.addTab("Busqueda Ubicacion", new JScrollPane(new BusquedaUbicacion()));
 
         // Milton: agregar otra pestaña para BusquedaEstadoPanel
         tabs.addTab("Búsqueda Estado", new JScrollPane(new BusquedaEstadoPanel()));
         // Milton: aqui termina la pestaña extra
+
+        //tabs de Borja y Solano Unificadas
+        tabs.addTab("Consultas De Ejemplares", new ContenedorConsultasPanel());
 
     }
 

@@ -16,6 +16,8 @@ public class BusquedaUbicacion extends JPanel {
     JPanel secciones = new JPanel();
     JPanel estantes = new JPanel();
     JPanel titulo = new JPanel();
+    JPanel subtitulo = new JPanel();
+    JPanel botonbuscar = new JPanel();
 
     // componentes de los JPanel
     private JComboBox<String> comboEdificio = new JComboBox<>();
@@ -50,29 +52,38 @@ public class BusquedaUbicacion extends JPanel {
         // se configura gestor de diseño a los jpanel hijos de panelJcombox
         titulo.setLayout(new FlowLayout(FlowLayout.CENTER));
         titulo.setMaximumSize(new Dimension(1100, 50));
+        subtitulo.setLayout(new FlowLayout(FlowLayout.CENTER));
+        subtitulo.setMaximumSize(new Dimension(1100, 50));
+        botonbuscar.setLayout(new FlowLayout(FlowLayout.CENTER));
+        botonbuscar.setMaximumSize(new Dimension(1100, 50));
         edificios.setLayout(new BorderLayout());
         pisos.setLayout(new BorderLayout());
         secciones.setLayout(new BorderLayout());
         estantes.setLayout(new BorderLayout());
 
         // agregando margen x para evitar que se vea junto
-        panelJcombox.setBorder(new EmptyBorder(20, 20, 0, 20));
-        edificios.setBorder(new EmptyBorder(0, 10, 0, 10));
-        pisos.setBorder(new EmptyBorder(0, 10, 0, 10));
-        secciones.setBorder(new EmptyBorder(0, 10, 0, 10));
-        estantes.setBorder(new EmptyBorder(0, 10, 0, 10));
+        panelJcombox.setBorder(new EmptyBorder(0, 1, 0, 1));
+        edificios.setBorder(new EmptyBorder(0, 1, 0, 1));
+        pisos.setBorder(new EmptyBorder(0, 1, 0, 1));
+        secciones.setBorder(new EmptyBorder(0, 1, 0, 1));
+        estantes.setBorder(new EmptyBorder(0, 1, 0, 1));
+
+        // se agrega jlabels a los hijos de jcombox +boton centrado al final
+        JLabel textoEdificios = new JLabel("Edificio: ");
+        JLabel textoPiso = new JLabel("Piso: ");
+        JLabel textoSeccion = new JLabel("Seccion: ");
+        JLabel textoEstante = new JLabel("Estante: ");
+        JLabel textoTitulo = new JLabel("Consulta de ejemplares por ubicación");
+        JLabel textosubTitulo = new JLabel("Selecciona los cuatro componentes para consultar materiales");
         btnBuscar.setBackground(Color.decode("#1E90FF"));
         btnBuscar.setForeground(Color.WHITE);
 
-        // se agrega jlabels a los hijos de jcombox
-        JLabel textoEdificios = new JLabel("Selecciona un edificio: ");
-        JLabel textoPiso = new JLabel("Selecciona un piso: ");
-        JLabel textoSeccion = new JLabel("Selecciona una seccion: ");
-        JLabel textoEstante = new JLabel("Selecciona un estante: ");
-        JLabel textoTitulo = new JLabel("Busqueda por ubicacion");
         textoTitulo.setFont(new Font("Arial", Font.PLAIN, 18));
         textoTitulo.setBorder(new EmptyBorder(20, 0, 0, 0));
         titulo.add(textoTitulo);
+        subtitulo.add(textosubTitulo);
+        botonbuscar.add(btnBuscar);
+
         edificios.add(textoEdificios, BorderLayout.WEST);
         pisos.add(textoPiso, BorderLayout.WEST);
         secciones.add(textoSeccion, BorderLayout.WEST);
@@ -139,12 +150,13 @@ public class BusquedaUbicacion extends JPanel {
         });
 
         add(titulo);
+        add(subtitulo);
         add(panelJcombox);
+        add(botonbuscar);
         add(scroll);
         panelJcombox.add(edificios);
         panelJcombox.add(pisos);
         panelJcombox.add(secciones);
         panelJcombox.add(estantes);
-        panelJcombox.add(btnBuscar);
     }
 }

@@ -1,6 +1,7 @@
 package vista;
 
 import javax.swing.*;
+import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.util.ArrayList;
@@ -15,6 +16,7 @@ public class BusquedaEjemplarUnidades extends JPanel {
     private JPanel menu = new JPanel();
     private JPanel panelResultados = new JPanel();
     private JPanel panelConteoTipos = new JPanel();
+    private JPanel tituloSuperiorPanel = new JPanel();//tituloSuperior de panel
 
     // componentes de los JPanel
     private JLabel titulo = new JLabel();
@@ -28,7 +30,7 @@ public class BusquedaEjemplarUnidades extends JPanel {
         // Panel conteo de tipo y nombre de titulo
         panelConteoTipos.setLayout(new BorderLayout());
         panelConteoTipos.add(cantidadTipo, BorderLayout.CENTER);
-        titulo.setText("Libros");
+        titulo.setText("Cantidad total de ejemplares tipo Libro");
         //Panel de titulo
         tituloPrincipal.setLayout(new BorderLayout());
         tituloPrincipal.setBackground(Color.WHITE);
@@ -38,13 +40,13 @@ public class BusquedaEjemplarUnidades extends JPanel {
 
         // Panel de menu botones 
         menu.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10));
-
+        menu.setBackground(Color.WHITE);
         for (String tipo : tipos) {
             JButton btn = estilizarBoton(new JButton("<html><u>" + tipo + "</u></html>"));
             menu.add(btn);
             btn.addActionListener(e -> {
                 cargarTablaPorTipo(tipo);
-                titulo.setText(tipo);
+                titulo.setText("Cantidad total de ejemplares tipo "+tipo);
             });
         }
 
@@ -78,7 +80,19 @@ public class BusquedaEjemplarUnidades extends JPanel {
         }
         cantidadTipo.setText(String.valueOf(obtenerCantidad));
 
+        // Panel de título superior
+        tituloSuperiorPanel.setLayout(new BorderLayout());
+        tituloSuperiorPanel.setBackground(Color.WHITE);
+
+        JLabel textoTitulo = new JLabel("Consulta de Ejemplares por Tipo");
+        textoTitulo.setFont(new Font("Arial", Font.PLAIN, 18));
+        textoTitulo.setBorder(new EmptyBorder(20, 0, 0, 0));
+        textoTitulo.setHorizontalAlignment(SwingConstants.CENTER);
+
+        tituloSuperiorPanel.add(textoTitulo, BorderLayout.CENTER);
+
         // Agregar paneles al principal
+        add(tituloSuperiorPanel);
         add(menu);
         add(tituloPrincipal);
         add(panelResultados);
