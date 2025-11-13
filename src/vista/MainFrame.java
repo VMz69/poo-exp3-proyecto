@@ -101,7 +101,7 @@ public class MainFrame extends JFrame {
         tabs.addTab("Préstamos", new JScrollPane(new PrestamoPanel()));
          //Gerson: tab BusqeudaEjeplar
         tabs.addTab("Busqueda Ejemplar", new JScrollPane(new BusquedaEjemplarUnidades()));
-        tabs.addTab("Busqueda Ejemplar", new JScrollPane(new BusquedaUbicacion()));
+        tabs.addTab("Busqueda Ubicacion", new JScrollPane(new BusquedaUbicacion()));
 
         // Milton: agregar otra pestaña para BusquedaEstadoPanel
         tabs.addTab("Búsqueda Estado", new JScrollPane(new BusquedaEstadoPanel()));
