@@ -70,23 +70,86 @@ public class ConfiguracionPanel extends JPanel {
 
     private void guardar() {
         try {
+            // Validar valores
+            int maxAlumno = Integer.parseInt(txtMaxAlumno.getText().trim());
+            int maxProfesor = Integer.parseInt(txtMaxProfesor.getText().trim());
+            int diasAlumno = Integer.parseInt(txtDiasAlumno.getText().trim());
+            int diasProfesor = Integer.parseInt(txtDiasProfesor.getText().trim());
+            double moraDiaria = Double.parseDouble(txtMoraDiaria.getText().trim());
+
+            // Validaciones de rango
+            if (maxAlumno < 1 || maxAlumno > 10) {
+                JOptionPane.showMessageDialog(this,
+                        "Máx. préstamos alumno debe estar entre 1 y 10",
+                        "Validación", JOptionPane.WARNING_MESSAGE);
+                return;
+            }
+
+            if (maxProfesor < 1 || maxProfesor > 20) {
+                JOptionPane.showMessageDialog(this,
+                        "Máx. préstamos profesor debe estar entre 1 y 20",
+                        "Validación", JOptionPane.WARNING_MESSAGE);
+                return;
+            }
+
+            if (diasAlumno < 1 || diasAlumno > 30) {
+                JOptionPane.showMessageDialog(this,
+                        "Días préstamo alumno debe estar entre 1 y 30",
+                        "Validación", JOptionPane.WARNING_MESSAGE);
+                return;
+            }
+
+            if (diasProfesor < 1 || diasProfesor > 90) {
+                JOptionPane.showMessageDialog(this,
+                        "Días préstamo profesor debe estar entre 1 y 90",
+                        "Validación", JOptionPane.WARNING_MESSAGE);
+                return;
+            }
+
+            if (moraDiaria < 0 || moraDiaria > 10) {
+                JOptionPane.showMessageDialog(this,
+                        "Mora diaria debe estar entre 0 y 10",
+                        "Validación", JOptionPane.WARNING_MESSAGE);
+                return;
+            }
+
+            // Crear objeto configuración
             Configuracion c = new Configuracion();
-            c.setMaxPrestamosAlumno(Integer.parseInt(txtMaxAlumno.getText()));
-            c.setMaxPrestamosProfesor(Integer.parseInt(txtMaxProfesor.getText()));
-            c.setDiasPrestamoAlumno(Integer.parseInt(txtDiasAlumno.getText()));
-            c.setDiasPrestamoProfesor(Integer.parseInt(txtDiasProfesor.getText()));
-            c.setMoraDiaria(Double.parseDouble(txtMoraDiaria.getText()));
+            c.setMaxPrestamosAlumno(maxAlumno);
+            c.setMaxPrestamosProfesor(maxProfesor);
+            c.setDiasPrestamoAlumno(diasAlumno);
+            c.setDiasPrestamoProfesor(diasProfesor);
+            c.setMoraDiaria(moraDiaria);
             c.setAnioAplicacion(java.time.Year.now().getValue());
 
-            // Aquí iría un ConfiguracionDAO.actualizar(c), pero como no existe, mostramos mensaje
-            JOptionPane.showMessageDialog(this,
-                    "Configuración guardada (simulada)\n" +
-                            "Alumno: " + c.getMaxPrestamosAlumno() + " préstamos\n" +
-                            "Profesor: " + c.getMaxPrestamosProfesor() + " préstamos\n" +
-                            "Mora diaria: S/. " + c.getMoraDiaria(),
-                    "Éxito", JOptionPane.INFORMATION_MESSAGE);
+            // Guardar en base de datos
+            ConfiguracionDAO dao = new ConfiguracionDAO();
+            boolean exito = dao.guardarConfiguracion(c);
+
+            if (exito) {
+                JOptionPane.showMessageDialog(this,
+                        "<html><b>Configuración guardada exitosamente</b><br><br>" +
+                                "<b>Alumnos:</b><br>" +
+                                "• Máx. préstamos: " + c.getMaxPrestamosAlumno() + "<br>" +
+                                "• Días de préstamo: " + c.getDiasPrestamoAlumno() + "<br><br>" +
+                                "<b>Profesores:</b><br>" +
+                                "• Máx. préstamos: " + c.getMaxPrestamosProfesor() + "<br>" +
+                                "• Días de préstamo: " + c.getDiasPrestamoProfesor() + "<br><br>" +
+                                "<b>Mora diaria:</b> S/. " + String.format("%.2f", c.getMoraDiaria()) + "<br><br>" +
+                                "<i>Los cambios se aplicarán a todos los préstamos nuevos.</i>" +
+                                "</html>",
+                        "Éxito", JOptionPane.INFORMATION_MESSAGE);
+            } else {
+                JOptionPane.showMessageDialog(this,
+                        "Error al guardar la configuración en la base de datos.",
+                        "Error", JOptionPane.ERROR_MESSAGE);
+            }
+
         } catch (NumberFormatException ex) {
-            JOptionPane.showMessageDialog(this, "Ingrese números válidos", "Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(this,
+                    "Todos los campos deben contener números válidos.\n" +
+                            "Use punto (.) como separador decimal para la mora.",
+                    "Error de formato", JOptionPane.ERROR_MESSAGE);
         }
     }
 }

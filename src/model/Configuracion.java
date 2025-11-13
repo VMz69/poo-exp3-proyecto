@@ -29,6 +29,6 @@ public class Configuracion {
     public double getMoraDiaria() { return moraDiaria; }
     public void setMoraDiaria(double moraDiaria) { this.moraDiaria = moraDiaria; }
 
-//    public int getAnioAplicacion() { return anioAplicacion; }
+    public int getAnioAplicacion() { return anioAplicacion; }
     public void setAnioAplicacion(int anioAplicacion) { this.anioAplicacion = anioAplicacion; }
 }
