@@ -23,10 +23,10 @@ public class Prestamo {
     // ========================================
     public Prestamo() {}
 
-    public Prestamo(int idUsuario, int idEjemplar) {
-        this.idUsuario = idUsuario;
-        this.idEjemplar = idEjemplar;
-    }
+//    public Prestamo(int idUsuario, int idEjemplar) {
+//        this.idUsuario = idUsuario;
+//        this.idEjemplar = idEjemplar;
+//    }
 
     // ========================================
     // GETTERS Y SETTERS
@@ -55,8 +55,8 @@ public class Prestamo {
     public String getEstado() { return estado; }
     public void setEstado(String estado) { this.estado = estado; }
 
-    public String getObservaciones() { return observaciones; }
-    public void setObservaciones(String observaciones) { this.observaciones = observaciones; }
+//    public String getObservaciones() { return observaciones; }
+//    public void setObservaciones(String observaciones) { this.observaciones = observaciones; }
 
     // Relaciones
     public Usuario getUsuario() { return usuario; }

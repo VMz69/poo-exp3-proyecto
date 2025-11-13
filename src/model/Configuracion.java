@@ -11,7 +11,7 @@ public class Configuracion {
     private double moraDiaria;
     private int anioAplicacion;
 
-    public int getIdConfig() { return idConfig; }
+//    public int getIdConfig() { return idConfig; }
     public void setIdConfig(int idConfig) { this.idConfig = idConfig; }
 
     public int getMaxPrestamosAlumno() { return maxPrestamosAlumno; }
@@ -29,6 +29,6 @@ public class Configuracion {
     public double getMoraDiaria() { return moraDiaria; }
     public void setMoraDiaria(double moraDiaria) { this.moraDiaria = moraDiaria; }
 
-    public int getAnioAplicacion() { return anioAplicacion; }
+//    public int getAnioAplicacion() { return anioAplicacion; }
     public void setAnioAplicacion(int anioAplicacion) { this.anioAplicacion = anioAplicacion; }
 }

@@ -25,8 +25,8 @@ public class Ubicacion {
     public String getEstante() { return estante; }
     public void setEstante(String estante) { this.estante = estante; }
 
-    public String getDescripcion() { return descripcion; }
-    public void setDescripcion(String descripcion) { this.descripcion = descripcion; }
+//    public String getDescripcion() { return descripcion; }
+//    public void setDescripcion(String descripcion) { this.descripcion = descripcion; }
 
     public String getUbicacionCompleta() {
         return edificio + " - " + piso + " - " + seccion + " - " + estante;

@@ -16,10 +16,10 @@ public class Informe extends Ejemplar {
     public int getNumPaginas() { return numPaginas; }
     public void setNumPaginas(int numPaginas) { this.numPaginas = numPaginas; }
 
-    public String getInstitucion() { return institucion; }
+//    public String getInstitucion() { return institucion; }
     public void setInstitucion(String institucion) { this.institucion = institucion; }
 
-    public String getSupervisor() { return supervisor; }
+//    public String getSupervisor() { return supervisor; }
     public void setSupervisor(String supervisor) { this.supervisor = supervisor; }
 
     @Override

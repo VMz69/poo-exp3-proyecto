@@ -16,10 +16,10 @@ public class Libro extends Ejemplar {
     public int getNumPaginas() { return numPaginas; }
     public void setNumPaginas(int numPaginas) { this.numPaginas = numPaginas; }
 
-    public String getColeccion() { return coleccion; }
+//    public String getColeccion() { return coleccion; }
     public void setColeccion(String coleccion) { this.coleccion = coleccion; }
 
-    public String getNumeroSerie() { return numeroSerie; }
+//    public String getNumeroSerie() { return numeroSerie; }
     public void setNumeroSerie(String numeroSerie) { this.numeroSerie = numeroSerie; }
 
     @Override

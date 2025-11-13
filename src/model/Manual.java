@@ -5,7 +5,7 @@ public class Manual extends Ejemplar {
     private String area;
     private String nivelUsuario;
     private String version;
-    private int numPaginas;  // AÑADE ESTO
+    private int numPaginas;
 
     public Manual() {}
 
@@ -23,11 +23,11 @@ public class Manual extends Ejemplar {
     }
 
     // Getters y Setters
-    public String getArea() { return area; }
+//    public String getArea() { return area; }
     public void setArea(String area) { this.area = area; }
-    public String getNivelUsuario() { return nivelUsuario; }
+//    public String getNivelUsuario() { return nivelUsuario; }
     public void setNivelUsuario(String nivelUsuario) { this.nivelUsuario = nivelUsuario; }
-    public String getVersion() { return version; }
+//    public String getVersion() { return version; }
     public void setVersion(String version) { this.version = version; }
     public int getNumPaginas() { return numPaginas; }
     public void setNumPaginas(int numPaginas) { this.numPaginas = numPaginas; }

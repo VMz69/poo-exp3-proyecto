@@ -9,10 +9,10 @@ public class TipoUsuario {
 
     public TipoUsuario() {}
 
-    public TipoUsuario(int idTipo, String nombreTipo) {
-        this.idTipo = idTipo;
-        this.nombreTipo = nombreTipo;
-    }
+//    public TipoUsuario(int idTipo, String nombreTipo) {
+//        this.idTipo = idTipo;
+//        this.nombreTipo = nombreTipo;
+//    }
 
     public int getIdTipo() { return idTipo; }
     public void setIdTipo(int idTipo) { this.idTipo = idTipo; }
@@ -20,7 +20,7 @@ public class TipoUsuario {
     public String getNombreTipo() { return nombreTipo; }
     public void setNombreTipo(String nombreTipo) { this.nombreTipo = nombreTipo; }
 
-    public String getDescripcion() { return descripcion; }
+//    public String getDescripcion() { return descripcion; }
     public void setDescripcion(String descripcion) { this.descripcion = descripcion; }
 
     @Override

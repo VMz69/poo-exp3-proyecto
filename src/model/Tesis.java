@@ -19,19 +19,19 @@ public class Tesis extends Ejemplar {
     public int getNumPaginas() { return numPaginas; }
     public void setNumPaginas(int numPaginas) { this.numPaginas = numPaginas; }
 
-    public String getUniversidad() { return universidad; }
+//    public String getUniversidad() { return universidad; }
     public void setUniversidad(String universidad) { this.universidad = universidad; }
 
-    public String getFacultad() { return facultad; }
+//    public String getFacultad() { return facultad; }
     public void setFacultad(String facultad) { this.facultad = facultad; }
 
-    public String getCarrera() { return carrera; }
+//    public String getCarrera() { return carrera; }
     public void setCarrera(String carrera) { this.carrera = carrera; }
 
-    public String getAsesor() { return asesor; }
+//    public String getAsesor() { return asesor; }
     public void setAsesor(String asesor) { this.asesor = asesor; }
 
-    public String getGradoAcademico() { return gradoAcademico; }
+//    public String getGradoAcademico() { return gradoAcademico; }
     public void setGradoAcademico(String gradoAcademico) { this.gradoAcademico = gradoAcademico; }
 
     @Override

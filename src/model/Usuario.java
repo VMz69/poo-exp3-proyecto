@@ -33,8 +33,8 @@ public class Usuario {
     public String getContrasena() { return contrasena; }
     public void setContrasena(String contrasena) { this.contrasena = contrasena; }
 
-    public int getIdTipo() { return idTipo; }
-    public void setIdTipo(int idTipo) { this.idTipo = idTipo; }
+//    public int getIdTipo() { return idTipo; }
+//    public void setIdTipo(int idTipo) { this.idTipo = idTipo; }
 
     public boolean isTieneMora() { return tieneMora; }
     public void setTieneMora(boolean tieneMora) { this.tieneMora = tieneMora; }

@@ -13,13 +13,13 @@ public class CD extends Ejemplar {
     }
 
     // Getters y Setters específicos
-    public int getDuracion() { return duracion; }
+//    public int getDuracion() { return duracion; }
     public void setDuracion(int duracion) { this.duracion = duracion; }
 
-    public String getFormato() { return formato; }
+//    public String getFormato() { return formato; }
     public void setFormato(String formato) { this.formato = formato; }
 
-    public String getArtista() { return artista; }
+//    public String getArtista() { return artista; }
     public void setArtista(String artista) { this.artista = artista; }
 
     @Override

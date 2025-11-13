@@ -184,31 +184,31 @@ public class UsuarioDAO {
     // ========================================
     // 6. VALIDAR MORA (ANTES DE PRÉSTAMO)
     // ========================================
-    public boolean tieneMora(int idUsuario) {
-        Connection conn = null;
-        PreparedStatement ps = null;
-        ResultSet rs = null;
-        boolean tiene = false;
-
-        try {
-            conn = Conexion.conectar();
-            String sql = "SELECT tiene_mora FROM usuarios WHERE id_usuario = ?";
-            ps = conn.prepareStatement(sql);
-            ps.setInt(1, idUsuario);
-            rs = ps.executeQuery();
-
-            if (rs.next()) {
-                tiene = rs.getBoolean("tiene_mora");
-            }
-        } catch (SQLException e) {
-            log.error("Error al validar mora", e);
-        } finally {
-            Conexion.cerrar(rs);
-            Conexion.cerrar(ps);
-            Conexion.cerrar(conn);
-        }
-        return tiene;
-    }
+//    public boolean tieneMora(int idUsuario) {
+//        Connection conn = null;
+//        PreparedStatement ps = null;
+//        ResultSet rs = null;
+//        boolean tiene = false;
+//
+//        try {
+//            conn = Conexion.conectar();
+//            String sql = "SELECT tiene_mora FROM usuarios WHERE id_usuario = ?";
+//            ps = conn.prepareStatement(sql);
+//            ps.setInt(1, idUsuario);
+//            rs = ps.executeQuery();
+//
+//            if (rs.next()) {
+//                tiene = rs.getBoolean("tiene_mora");
+//            }
+//        } catch (SQLException e) {
+//            log.error("Error al validar mora", e);
+//        } finally {
+//            Conexion.cerrar(rs);
+//            Conexion.cerrar(ps);
+//            Conexion.cerrar(conn);
+//        }
+//        return tiene;
+//    }
 
     // ========================================
     // 7. ACTUALIZAR MORA (DEVOLUCIÓN CON ATRASO)

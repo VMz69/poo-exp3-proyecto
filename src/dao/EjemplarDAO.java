@@ -291,7 +291,7 @@ public class EjemplarDAO {
             if (desc != null) {
                 ((Revista) e).setVolumen(extraerValor(desc, "Vol."));
                 ((Revista) e).setNumero(extraerValor(desc, "Núm."));
-                ((Revista) e).setIssn(extraerValor(desc, "ISSN:"));
+//                ((Revista) e).setIssn(extraerValor(desc, "ISSN:"));
                 ((Revista) e).setPeriodicidad(extraerValor(desc, "Periodicidad:"));
             }
         } else if (e instanceof CD) {

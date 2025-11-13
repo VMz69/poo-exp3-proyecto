@@ -13,13 +13,13 @@ public class DVD extends Ejemplar {
     }
 
     // Getters y Setters específicos
-    public int getDuracion() { return duracion; }
+//    public int getDuracion() { return duracion; }
     public void setDuracion(int duracion) { this.duracion = duracion; }
 
-    public String getFormato() { return formato; }
+//    public String getFormato() { return formato; }
     public void setFormato(String formato) { this.formato = formato; }
 
-    public String getDirector() { return director; }
+//    public String getDirector() { return director; }
     public void setDirector(String director) { this.director = director; }
 
     @Override
