@@ -94,10 +94,10 @@ public class MainFrame extends JFrame {
         if ("Administrador".equals(rol)) {
             tabs.addTab("Usuarios", new JScrollPane(new UsuarioPanel()));
             tabs.addTab("Configuración", new JScrollPane(new ConfiguracionPanel()));
+            tabs.addTab("Ejemplares", new JScrollPane(new EjemplarPanel()));
+            tabs.addTab("Préstamos", new JScrollPane(new PrestamoPanel()));
         }
 
-        tabs.addTab("Ejemplares", new JScrollPane(new EjemplarPanel()));
-        tabs.addTab("Préstamos", new JScrollPane(new PrestamoPanel()));
          //Gerson: tab BusqeudaEjeplar
 //        tabs.addTab("Busqueda Ejemplar", new JScrollPane(new BusquedaEjemplarUnidades()));
 //        tabs.addTab("Busqueda Ubicacion", new JScrollPane(new BusquedaUbicacion()));
