@@ -303,6 +303,31 @@ public class UsuarioDAO {
         }
     }
 
+    // ========================================
+    // 11. ACTUALIZAR USUARIO
+    // ========================================
+    public boolean actualizar(Usuario u) {
+        String sql = "UPDATE usuarios SET nombre_completo = ?, correo = ?, usuario = ?, id_tipo = ?, activo = ? WHERE id_usuario = ?";
+
+        try (Connection conn = Conexion.conectar();
+             PreparedStatement ps = conn.prepareStatement(sql)) {
+
+            ps.setString(1, u.getNombreCompleto());
+            ps.setString(2, u.getCorreo());
+            ps.setString(3, u.getUsuario());
+            ps.setInt(4, u.getTipoUsuario().getIdTipo());
+            ps.setBoolean(5, u.isActivo());
+            ps.setInt(6, u.getIdUsuario());
+
+            return ps.executeUpdate() > 0;
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+
 
     // ========================================
     // MÉTODO AUXILIAR: MAPEAR RESULTSET A USUARIO

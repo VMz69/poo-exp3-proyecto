@@ -17,7 +17,7 @@ import java.util.List;
 public class UsuarioPanel extends JPanel {
     private JTextField txtNombre, txtCorreo, txtUsuario, txtContrasena;
     private JComboBox<TipoUsuario> cmbTipo;
-    private JButton btnGuardar, btnLimpiar, btnBuscar, btnCambioPass, btnEliminarUsuario;
+    private JButton btnGuardar, btnLimpiar, btnBuscar, btnCambioPass, btnEliminarUsuario, btnEditar;
     private JTable tabla;
     private DefaultTableModel modelo;
 
@@ -47,11 +47,11 @@ public class UsuarioPanel extends JPanel {
         addRow(form, gbc, "Correo:", txtCorreo, y++);
         addRow(form, gbc, "Usuario:", txtUsuario, y++);
         addRow(form, gbc, "Contraseña:", txtContrasena, y++);
-        addRow(form, gbc, "Tipo Usuario:", cmbTipo, y++);
+        addRow(form, gbc, "Rol de Usuario:", cmbTipo, y++);
 
         // Botones
         JPanel botones = new JPanel(new FlowLayout());
-        btnGuardar = new JButton("Guardar Usuario");
+        btnGuardar = new JButton("Agregar Usuario Nuevo");
         btnGuardar.setBackground(new Color(40, 167, 69));
         btnGuardar.setForeground(Color.WHITE);
         botones.add(btnGuardar);
@@ -61,7 +61,9 @@ public class UsuarioPanel extends JPanel {
         btnLimpiar.setForeground(Color.WHITE);
         botones.add(btnLimpiar);
 
-        gbc.gridx = 0; gbc.gridy = y; gbc.gridwidth = 2;
+        gbc.gridx = 0;
+        gbc.gridy = y;
+        gbc.gridwidth = 2;
         form.add(botones, gbc);
 
         add(form, BorderLayout.WEST);
@@ -71,7 +73,10 @@ public class UsuarioPanel extends JPanel {
                 "ID", "Nombre", "Usuario", "Correo", "Rol", "Mora", "Monto Mora", "Estado"
         };
         modelo = new DefaultTableModel(columnas, 0) {
-            @Override public boolean isCellEditable(int row, int col) { return false; }
+            @Override
+            public boolean isCellEditable(int row, int col) {
+                return false;
+            }
         };
         tabla = new JTable(modelo);
         tabla.getTableHeader().setFont(new Font("Segoe UI", Font.BOLD, 12));
@@ -91,10 +96,17 @@ public class UsuarioPanel extends JPanel {
         btnCambioPass.setForeground(Color.WHITE);
         panelSur.add(btnCambioPass);
 
+        btnEditar = new JButton("Editar Usuario");
+        btnEditar.setBackground(new Color(108, 117, 125));
+        btnEditar.setForeground(Color.WHITE);
+        panelSur.add(btnEditar);
+
         btnEliminarUsuario = new JButton("Eliminar Usuario");
         btnEliminarUsuario.setBackground(new Color(220, 53, 69));
         btnEliminarUsuario.setForeground(Color.WHITE);
         panelSur.add(btnEliminarUsuario);
+
+
 
         add(panelSur, BorderLayout.SOUTH);
 
@@ -104,12 +116,15 @@ public class UsuarioPanel extends JPanel {
         btnBuscar.addActionListener(e -> buscarUsuario());
         btnCambioPass.addActionListener(e -> restablecerPass());
         btnEliminarUsuario.addActionListener(e -> eliminarUsuario());
+        btnEditar.addActionListener(e -> editar());
         cargarCombos();
         cargarUsuarios(); // Carga inicial
     }
 
     private void addRow(JPanel panel, GridBagConstraints gbc, String label, JComponent field, int y) {
-        gbc.gridx = 0; gbc.gridy = y; gbc.gridwidth = 1;
+        gbc.gridx = 0;
+        gbc.gridy = y;
+        gbc.gridwidth = 1;
         panel.add(new JLabel(label), gbc);
         gbc.gridx = 1;
         panel.add(field, gbc);
@@ -126,7 +141,7 @@ public class UsuarioPanel extends JPanel {
         modelo.setRowCount(0);
         for (Usuario u : lista) {
             String mora = u.isTieneMora() ? "Sí" : "No";
-            String monto = String.format("S/. %.2f", u.getMontoMora());
+            String monto = String.format("$. %.2f", u.getMontoMora());
             String estado = u.isActivo() ? "Activo" : "Inactivo";
 
             modelo.addRow(new Object[]{
@@ -199,7 +214,7 @@ public class UsuarioPanel extends JPanel {
         }
     }
 
-    private void restablecerPass(){
+    private void restablecerPass() {
         int fila = tabla.getSelectedRow();
         if (fila == -1) {
             JOptionPane.showMessageDialog(this, "Seleccione un usuario", "Error", JOptionPane.ERROR_MESSAGE);
@@ -207,7 +222,7 @@ public class UsuarioPanel extends JPanel {
         }
 
         int idUsuario = (int) modelo.getValueAt(fila, 0);
-        String nombreUsuarioSelec = (String) modelo.getValueAt(fila,1);
+        String nombreUsuarioSelec = (String) modelo.getValueAt(fila, 1);
         UsuarioDAO udao = new UsuarioDAO();
         Usuario u = udao.obtenerPorId(idUsuario);
 
@@ -235,8 +250,8 @@ public class UsuarioPanel extends JPanel {
         }
 
         int idUsuario = (int) modelo.getValueAt(fila, 0);
-        String nombreUsuarioSelec = (String) modelo.getValueAt(fila,1);
-        String rolUsuarioSelec = (String) modelo.getValueAt(fila,4);
+        String nombreUsuarioSelec = (String) modelo.getValueAt(fila, 1);
+        String rolUsuarioSelec = (String) modelo.getValueAt(fila, 4);
         UsuarioDAO udao = new UsuarioDAO();
         Usuario u = udao.obtenerPorId(idUsuario);
 
@@ -254,6 +269,23 @@ public class UsuarioPanel extends JPanel {
                 cargarUsuarios(); //refrescar tabla
             }
         }
+    }
+
+    private void editar() {
+        int fila = tabla.getSelectedRow();
+        if (fila == -1) {
+            JOptionPane.showMessageDialog(this, "Seleccione un usuario", "Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+
+        int idUsuario = (int) modelo.getValueAt(fila, 0);
+        UsuarioDAO udao = new UsuarioDAO();
+        Usuario u = udao.obtenerPorId(idUsuario);
+
+        EditarUsuarioDialog dialog = new EditarUsuarioDialog((Frame) SwingUtilities.getWindowAncestor(this), u);
+        dialog.setVisible(true);
+
+        cargarUsuarios(); // refrescar independientemente de la actualizcion o no
     }
 
     private void limpiarCampos() {

@@ -8,7 +8,7 @@ public class Usuario {
     private String correo;
     private String usuario;
     private String contrasena;
-    private int idTipo;
+//    private int idTipo;
     private boolean tieneMora;
     private double montoMora;
     private Timestamp fechaRegistro;
