@@ -17,7 +17,7 @@ import java.util.List;
 public class UsuarioPanel extends JPanel {
     private JTextField txtNombre, txtCorreo, txtUsuario, txtContrasena;
     private JComboBox<TipoUsuario> cmbTipo;
-    private JButton btnGuardar, btnLimpiar, btnBuscar, btnCambioPass, btnEliminarUsuario, btnEditar;
+    private JButton btnGuardar, btnLimpiar, btnBuscar, btnCambioPass, btnEliminarUsuario, btnEditar, btnPagarMora;
     private JTable tabla;
     private DefaultTableModel modelo;
 
@@ -84,7 +84,7 @@ public class UsuarioPanel extends JPanel {
         tabla.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         add(new JScrollPane(tabla), BorderLayout.CENTER);
 
-        // === PANEL SUR: BUSCAR PASS + CRUD ===
+        // === PANEL SUR: BUSCAR PASS + CRUD + PAGAR MORA ===
         JPanel panelSur = new JPanel(new FlowLayout(FlowLayout.RIGHT));
         btnBuscar = new JButton("Buscar Usuario");
         btnBuscar.setBackground(new Color(0, 123, 255));
@@ -106,7 +106,11 @@ public class UsuarioPanel extends JPanel {
         btnEliminarUsuario.setForeground(Color.WHITE);
         panelSur.add(btnEliminarUsuario);
 
-
+        // Botón Pagar Mora (siempre visible)
+        btnPagarMora = new JButton("Pagar Mora");
+        btnPagarMora.setBackground(new Color(40, 167, 69));
+        btnPagarMora.setForeground(Color.WHITE);
+        panelSur.add(btnPagarMora);
 
         add(panelSur, BorderLayout.SOUTH);
 
@@ -117,6 +121,8 @@ public class UsuarioPanel extends JPanel {
         btnCambioPass.addActionListener(e -> restablecerPass());
         btnEliminarUsuario.addActionListener(e -> eliminarUsuario());
         btnEditar.addActionListener(e -> editar());
+        btnPagarMora.addActionListener(e -> pagarMora());
+
         cargarCombos();
         cargarUsuarios(); // Carga inicial
     }
@@ -141,7 +147,7 @@ public class UsuarioPanel extends JPanel {
         modelo.setRowCount(0);
         for (Usuario u : lista) {
             String mora = u.isTieneMora() ? "Sí" : "No";
-            String monto = String.format("$. %.2f", u.getMontoMora());
+            String monto = String.format("$ %.2f", u.getMontoMora());
             String estado = u.isActivo() ? "Activo" : "Inactivo";
 
             modelo.addRow(new Object[]{
@@ -198,7 +204,7 @@ public class UsuarioPanel extends JPanel {
         modelo.setRowCount(0);
         for (Usuario u : resultados) {
             String mora = u.isTieneMora() ? "Sí" : "No";
-            String monto = String.format("S/. %.2f", u.getMontoMora());
+            String monto = String.format("$ %.2f", u.getMontoMora());
             String estado = u.isActivo() ? "Activo" : "Inactivo";
 
             modelo.addRow(new Object[]{
@@ -286,6 +292,65 @@ public class UsuarioPanel extends JPanel {
         dialog.setVisible(true);
 
         cargarUsuarios(); // refrescar independientemente de la actualizcion o no
+    }
+
+    // Pagar mora
+    private void pagarMora() {
+        int fila = tabla.getSelectedRow();
+        if (fila == -1) {
+            JOptionPane.showMessageDialog(this, "Seleccione un usuario con mora", "Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+
+        int idUsuario = (int) modelo.getValueAt(fila, 0);
+        String nombre = (String) modelo.getValueAt(fila, 1);
+        String moraStr = (String) modelo.getValueAt(fila, 5);
+        String montoTexto = (String) modelo.getValueAt(fila, 6);
+
+        if (!"Sí".equals(moraStr)) {
+            JOptionPane.showMessageDialog(this, "Este usuario no tiene mora pendiente.", "Información", JOptionPane.INFORMATION_MESSAGE);
+            return;
+        }
+
+        // Limpiar formato
+        String montoLimpio = montoTexto.replace("$", "").replace(" ", "").replace(",", "").trim();
+
+        double montoMora = 0.0;
+        try {
+            montoMora = Double.parseDouble(montoLimpio);
+        } catch (NumberFormatException ex) {
+            JOptionPane.showMessageDialog(this, "Error al leer el monto: " + montoTexto, "Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+
+        if (montoMora <= 0) {
+            JOptionPane.showMessageDialog(this, "No hay monto pendiente por pagar.", "Información", JOptionPane.INFORMATION_MESSAGE);
+            return;
+        }
+
+        int confirm = JOptionPane.showConfirmDialog(
+                this,
+                String.format("<html><b>¿Confirmar pago de mora?</b><br><br>" +
+                        "Usuario: <b>%s</b><br>" +
+                        "Monto: <b>$ %.2f</b></html>", nombre, montoMora),
+                "Pagar Mora",
+                JOptionPane.YES_NO_OPTION,
+                JOptionPane.QUESTION_MESSAGE
+        );
+
+        if (confirm != JOptionPane.YES_OPTION) return;
+
+        UsuarioDAO dao = new UsuarioDAO();
+        if (dao.pagarMora(idUsuario)) {
+            JOptionPane.showMessageDialog(this,
+                    String.format("<html><b>Mora pagada con éxito</b><br><br>" +
+                            "Usuario: <b>%s</b><br>" +
+                            "Monto pagado: <b>$ %.2f</b></html>", nombre, montoMora),
+                    "Éxito", JOptionPane.INFORMATION_MESSAGE);
+            cargarUsuarios();
+        } else {
+            JOptionPane.showMessageDialog(this, "Error al procesar el pago de mora.", "Error", JOptionPane.ERROR_MESSAGE);
+        }
     }
 
     private void limpiarCampos() {

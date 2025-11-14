@@ -12,7 +12,7 @@ import java.util.List;
 public class EjemplarDAO {
     private static final Logger log = LogManager.getLogger(EjemplarDAO.class);
 
-    // === INSERTAR EJEMPLAR (CON HERENCIA) ===
+    // Insertar ejemplar
     public boolean insertar(Ejemplar e) {
         String sqlBase = "INSERT INTO ejemplar (titulo, autor, editorial, isbn, anio_publicacion, " +
                 "id_tipo_documento, id_categoria, id_ubicacion, numero_edicion, idioma, " +
@@ -79,7 +79,7 @@ public class EjemplarDAO {
         return false;
     }
 
-    // === OBTENER POR ID (CON HERENCIA) ===
+    // Obtener por ID
     public Ejemplar obtenerPorId(int id) {
         String sql = "SELECT e.*, td.*, c.*, u.* " +
                 "FROM ejemplar e " +
@@ -110,7 +110,7 @@ public class EjemplarDAO {
         return null;
     }
 
-    // === BÚSQUEDA (CON HERENCIA) ===
+    // Busqueda
     public List<Ejemplar> buscar(String criterio) {
         List<Ejemplar> lista = new ArrayList<>();
         String sql = "SELECT e.*, td.*, c.*, u.* " +
@@ -146,7 +146,7 @@ public class EjemplarDAO {
         return lista;
     }
 
-    // === ACTUALIZAR DISPONIBILIDAD ===
+    // Actualiar disponibilidad
     public boolean actualizarDisponibilidad(int idEjemplar, int cambio) {
         String sql = "UPDATE ejemplar SET cantidad_disponible = cantidad_disponible + ? WHERE id_ejemplar = ? AND activo = TRUE";
         Connection conn = null;
@@ -222,7 +222,7 @@ public class EjemplarDAO {
         return lista;
     }
 
-    // === MAPEO CON HERENCIA ===
+    // Mapeo de ejmplar
     private Ejemplar mapearEjemplar(ResultSet rs) throws SQLException {
         // Obtener tipo de documento
         TipoDocumento td = new TipoDocumento();

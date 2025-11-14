@@ -256,9 +256,6 @@ public class EjemplarPanel extends JPanel {
 
             addRowDinamico(gbc, "Autores/Editores:", txtAutor, y++, false);
             addRowDinamico(gbc, "Editorial:", txtEditorial, y++, false);
-//            addRowDinamico(gbc, "Volumen:", txtVolumen, y++, false);
-//            addRowDinamico(gbc, "Número:", txtNumero, y++, false);
-//            addRowDinamico(gbc, "ISSN:", txtISSN, y++, false);
             addRowDinamico(gbc, "Periodicidad:", txtPeriodicidad, y++, false);
             addRowDinamico(gbc, "Año:", txtAnio, y++, false);
             addRowDinamico(gbc, "Idioma:", txtIdioma, y++, false);
@@ -271,7 +268,6 @@ public class EjemplarPanel extends JPanel {
             txtAnio = new JTextField(10);
             txtEdicion = new JTextField(15);
             txtDuracion = new JTextField(10);
-//            txtFormato = new JTextField(20);
             txtInterprete = new JTextField(25);
             txtDescripcion = new JTextField(25);
 
@@ -279,7 +275,6 @@ public class EjemplarPanel extends JPanel {
             addRowDinamico(gbc, "Álbum:", txtAutor, y++, false);
             addRowDinamico(gbc, "Sello Discográfico:", txtEditorial, y++, false);
             addRowDinamico(gbc, "Duración (min):", txtDuracion, y++, false);
-//            addRowDinamico(gbc, "Formato:", txtFormato, y++, false);
             addRowDinamico(gbc, "Año:", txtAnio, y++, false);
             addRowDinamico(gbc, "Edición:", txtEdicion, y++, false);
             addRowDinamico(gbc, "Descripción:", txtDescripcion, y++, false);

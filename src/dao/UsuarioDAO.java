@@ -327,10 +327,34 @@ public class UsuarioDAO {
         }
     }
 
+    // Pagar Mora
+    public boolean pagarMora(int idUsuario) {
+        Connection conn = null;
+        PreparedStatement ps = null;
+        boolean exito = false;
 
+        try {
+            conn = Conexion.conectar();
+            String sql = "UPDATE usuarios SET tiene_mora = FALSE, monto_mora = 0.00 WHERE id_usuario = ?";
+            ps = conn.prepareStatement(sql);
+            ps.setInt(1, idUsuario);
+
+            int filas = ps.executeUpdate();
+            exito = filas > 0;
+            if (exito) {
+                log.info("Mora pagada para usuario ID: {}", idUsuario);
+            }
+        } catch (SQLException e) {
+            log.error("Error al pagar mora del usuario: {}", idUsuario, e);
+        } finally {
+            Conexion.cerrar(ps);
+            Conexion.cerrar(conn);
+        }
+        return exito;
+    }
 
     // ========================================
-    // MÉTODO AUXILIAR: MAPEAR RESULTSET A USUARIO
+    // METODO AUXILIAR: MAPEAR RESULTSET A USUARIO
     // ========================================
     private Usuario mapearUsuario(ResultSet rs) throws SQLException {
         Usuario u = new Usuario();
