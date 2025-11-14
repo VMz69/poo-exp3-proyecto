@@ -17,7 +17,7 @@ import java.util.List;
 public class UsuarioPanel extends JPanel {
     private JTextField txtNombre, txtCorreo, txtUsuario, txtContrasena;
     private JComboBox<TipoUsuario> cmbTipo;
-    private JButton btnGuardar, btnLimpiar, btnBuscar, btnCambioPass;
+    private JButton btnGuardar, btnLimpiar, btnBuscar, btnCambioPass, btnEliminarUsuario;
     private JTable tabla;
     private DefaultTableModel modelo;
 
@@ -79,7 +79,7 @@ public class UsuarioPanel extends JPanel {
         tabla.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         add(new JScrollPane(tabla), BorderLayout.CENTER);
 
-        // === PANEL SUR: BUSCAR ===
+        // === PANEL SUR: BUSCAR PASS + CRUD ===
         JPanel panelSur = new JPanel(new FlowLayout(FlowLayout.RIGHT));
         btnBuscar = new JButton("Buscar Usuario");
         btnBuscar.setBackground(new Color(0, 123, 255));
@@ -87,9 +87,14 @@ public class UsuarioPanel extends JPanel {
         panelSur.add(btnBuscar);
 
         btnCambioPass = new JButton("Restablecer Contraseña");
-        btnCambioPass.setBackground(new Color(220, 53, 69));
+        btnCambioPass.setBackground(new Color(220, 142, 53));
         btnCambioPass.setForeground(Color.WHITE);
         panelSur.add(btnCambioPass);
+
+        btnEliminarUsuario = new JButton("Eliminar Usuario");
+        btnEliminarUsuario.setBackground(new Color(220, 53, 69));
+        btnEliminarUsuario.setForeground(Color.WHITE);
+        panelSur.add(btnEliminarUsuario);
 
         add(panelSur, BorderLayout.SOUTH);
 
@@ -98,7 +103,7 @@ public class UsuarioPanel extends JPanel {
         btnLimpiar.addActionListener(e -> limpiarCampos());
         btnBuscar.addActionListener(e -> buscarUsuario());
         btnCambioPass.addActionListener(e -> restablecerPass());
-
+        btnEliminarUsuario.addActionListener(e -> eliminarUsuario());
         cargarCombos();
         cargarUsuarios(); // Carga inicial
     }
@@ -218,6 +223,35 @@ public class UsuarioPanel extends JPanel {
                 } else {
                     JOptionPane.showMessageDialog(this, "Error al actualizar la contraseña.", "Error", JOptionPane.ERROR_MESSAGE);
                 }
+            }
+        }
+    }
+
+    private void eliminarUsuario() {
+        int fila = tabla.getSelectedRow();
+        if (fila == -1) {
+            JOptionPane.showMessageDialog(this, "Seleccione un usuario", "Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+
+        int idUsuario = (int) modelo.getValueAt(fila, 0);
+        String nombreUsuarioSelec = (String) modelo.getValueAt(fila,1);
+        String rolUsuarioSelec = (String) modelo.getValueAt(fila,4);
+        UsuarioDAO udao = new UsuarioDAO();
+        Usuario u = udao.obtenerPorId(idUsuario);
+
+        if (u != null) {
+            int respuesta = JOptionPane.showConfirmDialog(
+                    null,
+                    "¿Estás seguro de que quieres eliminar al " + rolUsuarioSelec + " " + nombreUsuarioSelec + "?",
+                    "Confirmar Eliminación",
+                    JOptionPane.YES_NO_OPTION,
+                    JOptionPane.WARNING_MESSAGE
+            );
+
+            if (respuesta == JOptionPane.YES_OPTION) {
+                udao.eliminarUsuario(u);
+                cargarUsuarios(); //refrescar tabla
             }
         }
     }

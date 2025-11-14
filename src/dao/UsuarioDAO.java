@@ -288,6 +288,21 @@ public class UsuarioDAO {
         }
     }
 
+    // ========================================
+    // 10. ELIMINAR USUARIO
+    // ========================================
+    public boolean eliminarUsuario(Usuario u) {
+        String sql = "DELETE FROM usuarios WHERE id_usuario = ?";
+        try (Connection conn = Conexion.conectar();
+             PreparedStatement ps = conn.prepareStatement(sql)) {
+            ps.setInt(1, u.getIdUsuario());
+            return ps.executeUpdate() > 0;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
 
     // ========================================
     // MÉTODO AUXILIAR: MAPEAR RESULTSET A USUARIO
