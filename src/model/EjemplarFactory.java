@@ -1,12 +1,11 @@
 package model;
 
-/**
- * Factory para crear instancias de Ejemplar según el tipo
- * Implementa el patrón de diseño Factory
+/*
+Factory para crear instancias de Ejemplar según el tipo
  */
 public class EjemplarFactory {
 
-    /**
+    /*
      * Crea una instancia específica de Ejemplar según el nombre del tipo
      * @param tipoDocumento Nombre del tipo de documento (Libro, Tesis, CD, etc.)
      * @return Instancia de la clase correspondiente
@@ -29,13 +28,9 @@ public class EjemplarFactory {
                 return new Revista();
 
             case "CD":
-            case "CD-AUDIO":
                 return new CD();
 
             case "DVD":
-            case "CD-ROM":
-            case "VIDEO":
-            case "MULTIMEDIA":
                 return new DVD();
 
             case "INFORME":

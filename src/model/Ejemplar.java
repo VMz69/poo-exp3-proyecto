@@ -1,7 +1,7 @@
 package model;
 import java.time.LocalDate;
 
-/**
+/*
  * Clase Base Ejemplar - Representa un documento en la biblioteca
  * Clase abstracta para implementar herencia
  */
@@ -32,6 +32,10 @@ public abstract class Ejemplar {
 
     // Metodo abstracto para obtener el tipo de documento
     public abstract String getTipoDocumentoString();
+
+    public String getAutorOArtista(){
+        return getAutor() != null ? getAutor() : "";
+    }
 
     // Getters y Setters
     public int getIdEjemplar() { return idEjemplar; }

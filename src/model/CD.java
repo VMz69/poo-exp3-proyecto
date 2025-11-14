@@ -23,6 +23,14 @@ public class CD extends Ejemplar {
     public void setArtista(String artista) { this.artista = artista; }
 
     @Override
+    public String getAutorOArtista() {
+        if (artista != null && !artista.trim().isEmpty()) {
+            return artista.trim();
+        }
+        return super.getAutorOArtista();
+    }
+
+    @Override
     public String getInformacionEspecifica() {
         StringBuilder info = new StringBuilder();
         if (duracion > 0) {

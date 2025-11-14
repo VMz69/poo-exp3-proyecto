@@ -338,6 +338,50 @@ public class EjemplarDAO {
         return e;
     }
 
+    public boolean eliminar(int idEjemplar) {
+        // 1. Primero borrar los préstamos asociados
+        String sqlPrestamos = "DELETE FROM prestamo WHERE id_ejemplar = ?";
+        // 2. Borrar el ejemplar
+        String sqlEjemplar = "DELETE FROM ejemplar WHERE id_ejemplar = ?";
+
+        Connection conn = null;
+        PreparedStatement pst = null;
+        try {
+            conn = Conexion.conectar();
+            conn.setAutoCommit(false);
+
+            // borrar prestamos
+            pst = conn.prepareStatement(sqlPrestamos);
+            pst.setInt(1, idEjemplar);
+            pst.executeUpdate();
+            Conexion.cerrar(pst);
+
+            // borrar ejemplar
+            pst = conn.prepareStatement(sqlEjemplar);
+            pst.setInt(1, idEjemplar);
+            int filas = pst.executeUpdate();
+
+            if (filas > 0) {
+                conn.commit();
+                log.info("Ejemplar eliminado: ID {}", idEjemplar);
+                return true;
+            } else {
+                conn.rollback();
+            }
+        } catch (SQLException e) {
+            log.error("Error al eliminar ejemplar ID: {}", idEjemplar, e);
+            try {
+                if (conn != null) conn.rollback();
+            } catch (SQLException ex) {
+                log.error("Error al eliminar ejemplar ID: {}", idEjemplar);
+            }
+        } finally {
+            Conexion.cerrar(pst);
+            Conexion.cerrar(conn);
+        }
+        return false;
+    }
+
     // Metodo auxiliar para extraer valores de la descripción
     private String extraerValor(String descripcion, String clave) {
         if (descripcion == null || !descripcion.contains(clave)) {

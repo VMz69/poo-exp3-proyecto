@@ -23,6 +23,14 @@ public class DVD extends Ejemplar {
     public void setDirector(String director) { this.director = director; }
 
     @Override
+    public String getAutorOArtista() {
+        if (director != null && !director.trim().isEmpty()) {
+            return director.trim();
+        }
+        return super.getAutorOArtista();
+    }
+
+    @Override
     public String getInformacionEspecifica() {
         StringBuilder info = new StringBuilder();
         if (duracion > 0) {
