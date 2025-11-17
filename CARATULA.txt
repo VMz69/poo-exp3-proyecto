@@ -1,0 +1,19 @@
+UNIVERSIDAD DON BOSCO
+Dirección de Educación a Distancia
+--------------------------------------------------------
+MATERIA:
+Programación Orientada a Objetos POO901 G01T (Virtual)
+--------------------------------------------------------
+DOCENTE:
+Rafael Alexander Torres Rodríguez
+--------------------------------------------------------
+INTEGRANTES:
+MR251336 - Darwin Ezequiel Martínez Rosales
+GH251230 - Fernando José Gómez Hernández
+AV251709 - Milton Adalberto Ayala Ventura
+SG240238 - Nelson Mauricio Solano Guardado
+VM251307 - Victor Emmanuel Velasco Martinez
+--------------------------------------------------------
+LINK REPOSITORIO DE PROYECTO:
+https://github.com/VMz69/poo-exp3-proyecto.git
+--------------------------------------------------------
