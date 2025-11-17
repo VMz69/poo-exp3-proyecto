@@ -385,7 +385,7 @@ public class EjemplarPanel extends JPanel {
                     e.getCategoria().getNombreCategoria(),
                     ubicacion,
                     e.getCantidadTotal(),
-                    e.getCantidadTotal(),
+                    e.getCantidadDisponible(),
                     infoEspecifica
             });
         }

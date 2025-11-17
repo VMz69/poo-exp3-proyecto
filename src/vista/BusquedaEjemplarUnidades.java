@@ -55,7 +55,7 @@ public class BusquedaEjemplarUnidades extends JPanel {
         panelResultados.setPreferredSize(new Dimension(800, 640));
 
         // Crear tabla 
-        String[] columnas = { "TITULO", "AUTOR/ARTISTA", "AÑO", "IDIOMA", "TIPO", "DESCRIPCION", "INGRESO", "CANTIDAD" };
+        String[] columnas = { "TITULO", "AUTOR/ARTISTA", "AÑO", "TIPO", "DESCRIPCION", "INGRESO", "CANTIDAD" };
         DefaultTableModel modelo = new DefaultTableModel(columnas, 0);
         JTable tabla = new JTable(modelo);
         tabla.setFillsViewportHeight(true);
@@ -69,7 +69,7 @@ public class BusquedaEjemplarUnidades extends JPanel {
                     fila.get(0), 
                     fila.get(1), 
                     fila.get(2), 
-                    fila.get(3), 
+                    //fila.get(3),
                     fila.get(4), 
                     fila.get(5), 
                     fila.get(6),
@@ -114,7 +114,7 @@ public class BusquedaEjemplarUnidades extends JPanel {
                     fila.get(0), 
                     fila.get(1), 
                     fila.get(2), 
-                    fila.get(3), 
+                    //fila.get(3),
                     fila.get(4), 
                     fila.get(5), 
                     fila.get(6),
