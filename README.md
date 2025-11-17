@@ -1,6 +1,6 @@
 # 📚 Sistema de Gestión de Biblioteca
 
-Proyecto Académico -- Fase I
+Proyecto Académico -- Fase I y (preliminarmente) Fase II
 
 ## 📌 Descripción
 
@@ -98,10 +98,6 @@ Ejecutar la clase:
     /lib
        mysql-connector.jar
     README.md
-
-## 👥 Integrantes
-
-Proyecto grupal. (Agregar nombres si aplica)
 
 ## 📄 Licencia
 
