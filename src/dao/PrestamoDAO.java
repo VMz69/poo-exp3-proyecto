@@ -218,59 +218,59 @@ public class PrestamoDAO {
     // ========================================
     // METODO AUXILIAR: MAPEAR PRÉSTAMO COMPLETO
     // ========================================
-    private Prestamo mapearPrestamoCompleto(ResultSet rs) throws SQLException {
-        Prestamo p = new Prestamo();
-        p.setIdPrestamo(rs.getInt("id_prestamo"));
-        p.setIdUsuario(rs.getInt("id_usuario"));
-        p.setIdEjemplar(rs.getInt("id_ejemplar"));
-        p.setFechaPrestamo(rs.getTimestamp("fecha_prestamo"));
-        p.setFechaVencimiento(rs.getDate("fecha_vencimiento"));
-        p.setFechaDevolucion(rs.getTimestamp("fecha_devolucion"));
-        p.setMoraCalculada(rs.getDouble("mora_calculada"));
-        p.setEstado(rs.getString("estado"));
-
-        // Usuario completo
-        Usuario u = new Usuario();
-        u.setIdUsuario(rs.getInt("id_usuario"));
-        u.setNombreCompleto(rs.getString("nombre_completo"));
-        u.setCorreo(rs.getString("correo"));
-        u.setUsuario(rs.getString("usuario"));
-        u.setTieneMora(rs.getBoolean("tiene_mora"));
-        u.setMontoMora(rs.getDouble("monto_mora"));
-
-        TipoUsuario tu = new TipoUsuario();
-        tu.setIdTipo(rs.getInt("id_tipo"));
-        tu.setNombreTipo(rs.getString("nombre_tipo"));
-        u.setTipoUsuario(tu);
-        p.setUsuario(u);
-
-        // Ejemplar completo - USAR FACTORY
-        TipoDocumento td = new TipoDocumento();
-        td.setIdTipoDoc(rs.getInt("id_tipo_doc"));
-        td.setNombreTipo(rs.getString("tipo_doc_nombre"));
-
-        Ejemplar e = EjemplarFactory.crearEjemplar(td);
-        e.setIdEjemplar(rs.getInt("id_ejemplar"));
-        e.setTitulo(rs.getString("titulo"));
-        e.setAutor(rs.getString("autor"));
-        e.setCantidadDisponible(rs.getInt("cantidad_disponible"));
-        e.setCantidadTotal(rs.getInt("cantidad_total"));
-        e.setTipoDocumento(td);
-
-        // Ubicación (si se necesita)
-        String ubicacion = "";
-        try {
-            ubicacion = rs.getString("edificio") + "-" +
-                    rs.getString("piso") + "-" +
-                    rs.getString("seccion") + "-" +
-                    rs.getString("estante");
-        } catch (SQLException ex) {
-            // Si no hay columnas de ubicación, ignorar
-        }
-
-        p.setEjemplar(e);
-        return p;
-    }
+//    private Prestamo mapearPrestamoCompleto(ResultSet rs) throws SQLException {
+//        Prestamo p = new Prestamo();
+//        p.setIdPrestamo(rs.getInt("id_prestamo"));
+//        p.setIdUsuario(rs.getInt("id_usuario"));
+//        p.setIdEjemplar(rs.getInt("id_ejemplar"));
+//        p.setFechaPrestamo(rs.getTimestamp("fecha_prestamo"));
+//        p.setFechaVencimiento(rs.getDate("fecha_vencimiento"));
+//        p.setFechaDevolucion(rs.getTimestamp("fecha_devolucion"));
+//        p.setMoraCalculada(rs.getDouble("mora_calculada"));
+//        p.setEstado(rs.getString("estado"));
+//
+//        // Usuario completo
+//        Usuario u = new Usuario();
+//        u.setIdUsuario(rs.getInt("id_usuario"));
+//        u.setNombreCompleto(rs.getString("nombre_completo"));
+//        u.setCorreo(rs.getString("correo"));
+//        u.setUsuario(rs.getString("usuario"));
+//        u.setTieneMora(rs.getBoolean("tiene_mora"));
+//        u.setMontoMora(rs.getDouble("monto_mora"));
+//
+//        TipoUsuario tu = new TipoUsuario();
+//        tu.setIdTipo(rs.getInt("id_tipo"));
+//        tu.setNombreTipo(rs.getString("nombre_tipo"));
+//        u.setTipoUsuario(tu);
+//        p.setUsuario(u);
+//
+//        // Ejemplar completo - USAR FACTORY
+//        TipoDocumento td = new TipoDocumento();
+//        td.setIdTipoDoc(rs.getInt("id_tipo_doc"));
+//        td.setNombreTipo(rs.getString("tipo_doc_nombre"));
+//
+//        Ejemplar e = EjemplarFactory.crearEjemplar(td);
+//        e.setIdEjemplar(rs.getInt("id_ejemplar"));
+//        e.setTitulo(rs.getString("titulo"));
+//        e.setAutor(rs.getString("autor"));
+//        e.setCantidadDisponible(rs.getInt("cantidad_disponible"));
+//        e.setCantidadTotal(rs.getInt("cantidad_total"));
+//        e.setTipoDocumento(td);
+//
+//        // Ubicación (si se necesita)
+//        String ubicacion = "";
+//        try {
+//            ubicacion = rs.getString("edificio") + "-" +
+//                    rs.getString("piso") + "-" +
+//                    rs.getString("seccion") + "-" +
+//                    rs.getString("estante");
+//        } catch (SQLException ex) {
+//            // Si no hay columnas de ubicación, ignorar
+//        }
+//
+//        p.setEjemplar(e);
+//        return p;
+//    }
 
     // ========================================
     // Contar Cantidad de prestamos activos por usuario
